@@ -5,7 +5,9 @@
 <p><%= @book.opinion %></p>
 
 <p><%= @book.user.name %></p>
-
+<%= link_to user_path(@book.user_id) do %>
+    <p>ショップ名：<%= @book.user.name %></p>
+<% end %>
 
 <%= link_to "編集", edit_book_path(@book.id) %>
 <% if @book.user == current_user %>
