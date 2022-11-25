@@ -1,15 +1,20 @@
 <div>
-  <h3><%= @user.name %></h3>
+  <h1>User info</h1>
+  <p><%= image_tag @user.get_profile_image %></p>
+  <p>name <%= @user.name %></p>
+  <p>introduction </p>
+  <p><%= link_to "プロフィール編集", edit_user_path(current_user) %></p>
 </div>
 
 
 <% @books.each do |book| %>
 <div>
-  <%= image_tag book.user.get_profile_image %>
+  <%= link_to user_path(book.user_id) do %>
+    <p> <%= image_tag book.user.get_profile_image %></p>
+  <% end %>
   <%= link_to book_path(book.id) do %>
-    <p>ショップ名：<%= book.title %></p>
+    <p>book名：<%= book.title %></p>
   <% end %>
   <p>説明：<%= book.opinion %></p>
-  <p>ユーザーネーム：<%= book.user.name %></p>
 </div>
 <% end %>
