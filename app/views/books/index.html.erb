@@ -2,7 +2,9 @@
 <div>
   <%= link_to book_path(book.id) do %>
   <% end %>
-  <p>投稿ユーザー画像：<%= image_tag 'sample-author1.jpg' %></p>
+  <%= link_to user_path(book.user_id) do %>
+    <p>投稿ユーザー画像：<%= image_tag book.user.get_profile_image %></p>
+  <% end %>
   <p>Title：<%= link_to book.title, book_path(book.id) %></p>
   <p>Opinion：<%= book.opinion %></p>
   <p>ユーザーネーム：<%= book.user.name %></p>
