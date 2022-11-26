@@ -1,25 +1,44 @@
-<header>
-</header>
-
-<% @users.each do |user| %>
-<div>
-  <p>投稿ユーザー画像：<%= image_tag user.get_profile_image %></p>
-  <p>ユーザーネーム：<%= user.name %></p>
-  <%= link_to user_path(user.id) do %> <p>Show</p> <% end %>
-</div>
-<% end %>
-
-<h1>User info</h1>
-  <p><%= image_tag current_user.get_profile_image %></p>
-  <p>name <%= current_user.name %></p>
-  <p>introduction <%= current_user.introduction %></p>
-  <p><%= link_to "プロフィール編集", edit_user_path(current_user) %></p>
-
-<h1>画像投稿フォーム</h1>
-  <%= form_with model: @book do |f| %>
-    <h4>Title</h4>
-      <%= f.text_field :title %>
-    <h4>Opinion</h4>
-      <%= f.text_area :opinion %>
-    <%= f.submit '投稿' %>
-  <% end %>
+<main>
+  <div class="container">
+    <div class="row">  
+      <div class="col-lg-4" style="background-color: orange;">
+        <h1>User info</h1>
+          <p><%= image_tag current_user.get_profile_image %></p>
+          <p>name <%= current_user.name %></p>
+          <p>introduction <%= current_user.introduction %></p>
+          <p><%= link_to "プロフィール編集", edit_user_path(current_user) %></p>
+        
+        <h1>New book</h1>
+          <%= form_with model: @book do |f| %>
+            <h4>Title</h4>
+              <%= f.text_field :title %>
+            <h4>Opinion</h4>
+              <%= f.text_area :opinion %>
+            <br>
+            <%= f.submit 'Create Book' , class: "btn btn-secondary"%>
+          <% end %>
+      </div>
+      
+      <div class="col-lg-8">
+        <table class="table table-striped">
+          <thead>
+            <h1>Users</h1>
+            <tr>
+              <th>image</th>
+              <th>name</th>
+            </tr>
+          </thead>
+          <tbody>
+            <% @users.each do |user| %>
+            <tr>
+              <td><%= image_tag user.get_profile_image %></td>
+              <td><%= user.name %></td>
+              <td><%= link_to "Show",user_path(user.id) %></td>
+            </tr>
+            <% end %>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</main>

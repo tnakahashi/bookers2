@@ -289,7 +289,7 @@ Failures:
      [31mFailure/Error: let!(:book) { build(:book, user_id: user.id) }[0m
      [31m[0m
      [31mNoMethodError:[0m
-     [31m  undefined method `body=' for #<Book:0x0000000006d5e408>[0m
+     [31m  undefined method `body=' for #<Book:0x0000000008506290>[0m
      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -308,7 +308,7 @@ Failures:
      [31mFailure/Error: let!(:book) { build(:book, user_id: user.id) }[0m
      [31m[0m
      [31mNoMethodError:[0m
-     [31m  undefined method `body=' for #<Book:0x0000000006f538d0>[0m
+     [31m  undefined method `body=' for #<Book:0x00007fa4a00119f8>[0m
      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -327,7 +327,7 @@ Failures:
      [31mFailure/Error: let!(:book) { build(:book, user_id: user.id) }[0m
      [31m[0m
      [31mNoMethodError:[0m
-     [31m  undefined method `body=' for #<Book:0x0000000006f7ddd8>[0m
+     [31m  undefined method `body=' for #<Book:0x000000000882f8b8>[0m
      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -346,7 +346,7 @@ Failures:
      [31mFailure/Error: let!(:book) { build(:book, user_id: user.id) }[0m
      [31m[0m
      [31mNoMethodError:[0m
-     [31m  undefined method `body=' for #<Book:0x0000000006fada10>[0m
+     [31m  undefined method `body=' for #<Book:0x0000000008870c00>[0m
      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -633,38 +633,24 @@ Failures:
       [36m# ./spec/system/01_before_login_spec.rb:239:in `block (4 levels) in <main>'[0m
 
   28) [STEP1] ユーザログイン前のテスト ユーザログアウトのテスト ログアウト機能のテスト 正しくログアウトできている: ログアウト後のリダイレクト先においてAbout画面へのリンクが存在する
-      [31mFailure/Error: click_link logout_link[0m
-      [31m[0m
-      [31mCapybara::Ambiguous:[0m
-      [31m  Ambiguous match, found 2 elements matching visible link "Books"[0m
-      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.36.0/lib/capybara/node/finders.rb:301:in `block in synced_resolve'[0m
-      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.36.0/lib/capybara/node/base.rb:83:in `synchronize'[0m
-      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.36.0/lib/capybara/node/finders.rb:292:in `synced_resolve'[0m
-      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.36.0/lib/capybara/node/finders.rb:53:in `find'[0m
-      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.36.0/lib/capybara/node/actions.rb:42:in `click_link'[0m
-      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.36.0/lib/capybara/session.rb:778:in `block (2 levels) in <class:Session>'[0m
-      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.36.0/lib/capybara/dsl.rb:58:in `block (2 levels) in <module:DSL>'[0m
-      [36m# ./spec/system/01_before_login_spec.rb:254:in `block (3 levels) in <main>'[0m
+      [31mFailure/Error: expect(page).to have_link '', href: '/home/about'[0m
+      [31m  expected to find link "" with href "/home/about" but there were no matches[0m
+      [36m# ./spec/system/01_before_login_spec.rb:259:in `block (4 levels) in <main>'[0m
 
   29) [STEP1] ユーザログイン前のテスト ユーザログアウトのテスト ログアウト機能のテスト ログアウト後のリダイレクト先が、トップになっている
-      [31mFailure/Error: click_link logout_link[0m
+      [31mFailure/Error: expect(current_path).to eq '/'[0m
       [31m[0m
-      [31mCapybara::Ambiguous:[0m
-      [31m  Ambiguous match, found 2 elements matching visible link "Books"[0m
-      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.36.0/lib/capybara/node/finders.rb:301:in `block in synced_resolve'[0m
-      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.36.0/lib/capybara/node/base.rb:83:in `synchronize'[0m
-      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.36.0/lib/capybara/node/finders.rb:292:in `synced_resolve'[0m
-      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.36.0/lib/capybara/node/finders.rb:53:in `find'[0m
-      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.36.0/lib/capybara/node/actions.rb:42:in `click_link'[0m
-      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.36.0/lib/capybara/session.rb:778:in `block (2 levels) in <class:Session>'[0m
-      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.36.0/lib/capybara/dsl.rb:58:in `block (2 levels) in <module:DSL>'[0m
-      [36m# ./spec/system/01_before_login_spec.rb:254:in `block (3 levels) in <main>'[0m
+      [31m  expected: "/"[0m
+      [31m       got: "/books"[0m
+      [31m[0m
+      [31m  (compared using ==)[0m
+      [36m# ./spec/system/01_before_login_spec.rb:262:in `block (4 levels) in <main>'[0m
 
   30) [STEP2] ユーザログイン後のテスト ヘッダーのテスト: ログインしている場合 リンクの内容を確認: ※logoutは『ユーザログアウトのテスト』でテスト済みになります。 Homeを押すと、自分のユーザ詳細画面に遷移する
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x00000000081e3388>[0m
+      [31m  undefined method `body=' for #<Book:0x000000000a1566e8>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -683,7 +669,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x00000000085980a0>[0m
+      [31m  undefined method `body=' for #<Book:0x000000000a32d728>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -702,7 +688,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x00000000088aa158>[0m
+      [31m  undefined method `body=' for #<Book:0x000000000a67c870>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -721,7 +707,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x0000000008ad2fe8>[0m
+      [31m  undefined method `body=' for #<Book:0x000000000a18fe70>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -740,7 +726,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x0000000008d82d38>[0m
+      [31m  undefined method `body=' for #<Book:0x00007fa4a0509668>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -759,7 +745,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x00007f8464561b08>[0m
+      [31m  undefined method `body=' for #<Book:0x0000000008cd3338>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -778,7 +764,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x000000000900ef98>[0m
+      [31m  undefined method `body=' for #<Book:0x000000000a39a990>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -797,7 +783,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x000000000626f628>[0m
+      [31m  undefined method `body=' for #<Book:0x0000000008ecf308>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -816,7 +802,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x00007f845c4b07e8>[0m
+      [31m  undefined method `body=' for #<Book:0x0000000008db4ce8>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -835,7 +821,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x000000000902ff40>[0m
+      [31m  undefined method `body=' for #<Book:0x00000000082bff18>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -854,7 +840,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x00000000082e66b8>[0m
+      [31m  undefined method `body=' for #<Book:0x0000000008423940>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -873,7 +859,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x000000000732f990>[0m
+      [31m  undefined method `body=' for #<Book:0x00000000086301e8>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -892,7 +878,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x0000000006ac3680>[0m
+      [31m  undefined method `body=' for #<Book:0x0000000008806828>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -911,7 +897,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x0000000006c0a2f0>[0m
+      [31m  undefined method `body=' for #<Book:0x00000000088af770>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -930,7 +916,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x0000000006e11b48>[0m
+      [31m  undefined method `body=' for #<Book:0x0000000008a25050>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -949,7 +935,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x0000000006f7bbc8>[0m
+      [31m  undefined method `body=' for #<Book:0x0000000008aaedc8>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -968,7 +954,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x00007f84640518c0>[0m
+      [31m  undefined method `body=' for #<Book:0x0000000008bdc560>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -987,7 +973,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x0000000006ba1b88>[0m
+      [31m  undefined method `body=' for #<Book:0x0000000008ddb438>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1006,7 +992,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x0000000006340750>[0m
+      [31m  undefined method `body=' for #<Book:0x0000000008fb7a18>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1025,7 +1011,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x0000000007204c00>[0m
+      [31m  undefined method `body=' for #<Book:0x0000000009258830>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1044,7 +1030,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x0000000007417ba0>[0m
+      [31m  undefined method `body=' for #<Book:0x0000000009426a68>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1063,7 +1049,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x00000000077520e0>[0m
+      [31m  undefined method `body=' for #<Book:0x000000000953a468>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1082,7 +1068,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x000000000795c160>[0m
+      [31m  undefined method `body=' for #<Book:0x00000000096a1748>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1101,7 +1087,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x0000000007b2dc50>[0m
+      [31m  undefined method `body=' for #<Book:0x0000000009850af8>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1120,7 +1106,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x0000000007d27e48>[0m
+      [31m  undefined method `body=' for #<Book:0x000000000999f918>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1139,7 +1125,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x0000000007e7c168>[0m
+      [31m  undefined method `body=' for #<Book:0x0000000009bf15b8>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1158,7 +1144,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x00000000080306a8>[0m
+      [31m  undefined method `body=' for #<Book:0x0000000009da34d8>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1177,7 +1163,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x00000000081ddf00>[0m
+      [31m  undefined method `body=' for #<Book:0x0000000009ef9c38>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1196,7 +1182,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x000000000833cae0>[0m
+      [31m  undefined method `body=' for #<Book:0x000000000a0bf108>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1215,7 +1201,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x00000000085b6988>[0m
+      [31m  undefined method `body=' for #<Book:0x000000000a1a7cf0>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1234,7 +1220,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x000000000873ab60>[0m
+      [31m  undefined method `body=' for #<Book:0x000000000a287350>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1253,7 +1239,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x00000000088b61b0>[0m
+      [31m  undefined method `body=' for #<Book:0x000000000a3f3450>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1272,7 +1258,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x00007f8464475208>[0m
+      [31m  undefined method `body=' for #<Book:0x000000000a5a21e8>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1291,7 +1277,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x0000000008b29370>[0m
+      [31m  undefined method `body=' for #<Book:0x000000000a750788>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1310,7 +1296,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x0000000008c802f0>[0m
+      [31m  undefined method `body=' for #<Book:0x00007fa4a04f5960>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1329,7 +1315,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x0000000008e20e20>[0m
+      [31m  undefined method `body=' for #<Book:0x0000000009a24258>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1348,7 +1334,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x0000000008fe24e8>[0m
+      [31m  undefined method `body=' for #<Book:0x000000000a387a70>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1367,7 +1353,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x00007f8464591e48>[0m
+      [31m  undefined method `body=' for #<Book:0x0000000008ecf420>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1386,7 +1372,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x00007f84645b4fd8>[0m
+      [31m  undefined method `body=' for #<Book:0x00007fa4a451e848>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1405,7 +1391,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x0000000008ccc3a8>[0m
+      [31m  undefined method `body=' for #<Book:0x0000000008386000>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1424,7 +1410,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x0000000007d4f330>[0m
+      [31m  undefined method `body=' for #<Book:0x0000000008469b70>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1443,7 +1429,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x00007f846462d4b0>[0m
+      [31m  undefined method `body=' for #<Book:0x00000000086afb78>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1462,7 +1448,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x0000000004494e28>[0m
+      [31m  undefined method `body=' for #<Book:0x0000000008849920>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1481,7 +1467,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x0000000006b085c8>[0m
+      [31m  undefined method `body=' for #<Book:0x0000000008a03630>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1500,7 +1486,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x0000000006c166b8>[0m
+      [31m  undefined method `body=' for #<Book:0x00007fa4a402e928>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1519,7 +1505,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x0000000006e2a030>[0m
+      [31m  undefined method `body=' for #<Book:0x00007fa4a04be898>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1538,7 +1524,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x00007f8464033fa0>[0m
+      [31m  undefined method `body=' for #<Book:0x0000000008d02f70>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1557,7 +1543,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x00007f84640dd050>[0m
+      [31m  undefined method `body=' for #<Book:0x0000000008f33010>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1576,7 +1562,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x00000000068083a0>[0m
+      [31m  undefined method `body=' for #<Book:0x0000000009207e30>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1595,7 +1581,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x00000000063efac0>[0m
+      [31m  undefined method `body=' for #<Book:0x00000000093ee960>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1614,7 +1600,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x00000000072b1798>[0m
+      [31m  undefined method `body=' for #<Book:0x00000000095887d0>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1633,7 +1619,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x000000000751c578>[0m
+      [31m  undefined method `body=' for #<Book:0x00000000096c5210>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1652,7 +1638,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x0000000007833180>[0m
+      [31m  undefined method `body=' for #<Book:0x00000000098595e0>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1671,7 +1657,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x0000000007a225b8>[0m
+      [31m  undefined method `body=' for #<Book:0x00000000099f06d8>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1690,7 +1676,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x0000000007c48540>[0m
+      [31m  undefined method `body=' for #<Book:0x0000000009c33ee0>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1709,7 +1695,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x0000000007da9808>[0m
+      [31m  undefined method `body=' for #<Book:0x0000000009e1b960>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1728,7 +1714,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x0000000007f45838>[0m
+      [31m  undefined method `body=' for #<Book:0x0000000009f08cb0>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1747,7 +1733,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x0000000008105498>[0m
+      [31m  undefined method `body=' for #<Book:0x00007fa4a43957d8>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1766,7 +1752,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x00000000082a2300>[0m
+      [31m  undefined method `body=' for #<Book:0x000000000a1a8fb0>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1785,7 +1771,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x000000000850e760>[0m
+      [31m  undefined method `body=' for #<Book:0x000000000a2ab340>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1804,7 +1790,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x00000000086b4b50>[0m
+      [31m  undefined method `body=' for #<Book:0x000000000a3f8ef0>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1823,7 +1809,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x00000000087ca4b8>[0m
+      [31m  undefined method `body=' for #<Book:0x000000000a5ac5f8>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1842,7 +1828,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x00000000089acdf8>[0m
+      [31m  undefined method `body=' for #<Book:0x000000000a7902e8>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1861,7 +1847,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x0000000008a864b8>[0m
+      [31m  undefined method `body=' for #<Book:0x0000000009dde948>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1880,7 +1866,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x0000000008bd1368>[0m
+      [31m  undefined method `body=' for #<Book:0x0000000009a26878>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1899,7 +1885,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x0000000008d7b740>[0m
+      [31m  undefined method `body=' for #<Book:0x000000000a38b440>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1918,7 +1904,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x0000000008f1cb08>[0m
+      [31m  undefined method `body=' for #<Book:0x0000000008eef9c8>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1937,7 +1923,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x00007f845c448a08>[0m
+      [31m  undefined method `body=' for #<Book:0x00007fa4a451d060>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1956,7 +1942,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x0000000008b76a30>[0m
+      [31m  undefined method `body=' for #<Book:0x0000000008368410>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1975,7 +1961,7 @@ Failures:
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x0000000008786bc8>[0m
+      [31m  undefined method `body=' for #<Book:0x00000000084bae58>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1994,7 +1980,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x0000000008da6ff8>[0m
+       [31m  undefined method `body=' for #<Book:0x00000000086bcc60>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2013,7 +1999,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x00000000082da480>[0m
+       [31m  undefined method `body=' for #<Book:0x00007fa4a0076038>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2032,7 +2018,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x000000000733cc58>[0m
+       [31m  undefined method `body=' for #<Book:0x0000000008a06b28>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2051,7 +2037,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x0000000006abd9d8>[0m
+       [31m  undefined method `body=' for #<Book:0x00007fa4a00e5a00>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2070,7 +2056,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x0000000006bff760>[0m
+       [31m  undefined method `body=' for #<Book:0x0000000008b4fa20>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2089,7 +2075,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x0000000006e0e290>[0m
+       [31m  undefined method `body=' for #<Book:0x0000000008dc86a8>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2108,7 +2094,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x0000000006f7b8f8>[0m
+       [31m  undefined method `body=' for #<Book:0x0000000008f6de40>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2127,7 +2113,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x00007f845c0774d8>[0m
+       [31m  undefined method `body=' for #<Book:0x000000000925cbd8>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2146,7 +2132,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x0000000006b9e3c0>[0m
+       [31m  undefined method `body=' for #<Book:0x000000000944d820>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2165,7 +2151,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x00000000063223b8>[0m
+       [31m  undefined method `body=' for #<Book:0x00000000095954f8>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2184,7 +2170,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x000000000720de40>[0m
+       [31m  undefined method `body=' for #<Book:0x00000000096f8480>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2203,7 +2189,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x0000000007486f28>[0m
+       [31m  undefined method `body=' for #<Book:0x0000000009865390>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2222,7 +2208,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x00000000077592c8>[0m
+       [31m  undefined method `body=' for #<Book:0x0000000009a078b0>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2241,7 +2227,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x00000000078fc198>[0m
+       [31m  undefined method `body=' for #<Book:0x0000000009c30da8>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2260,7 +2246,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x0000000007b726c0>[0m
+       [31m  undefined method `body=' for #<Book:0x0000000009dc43e0>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2279,7 +2265,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x0000000007d3c758>[0m
+       [31m  undefined method `body=' for #<Book:0x0000000009f02cc0>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2298,7 +2284,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x0000000007eaa3b0>[0m
+       [31m  undefined method `body=' for #<Book:0x000000000a0c9658>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2317,7 +2303,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x000000000804d870>[0m
+       [31m  undefined method `body=' for #<Book:0x000000000a1b1200>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2336,7 +2322,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x000000000822ddc0>[0m
+       [31m  undefined method `body=' for #<Book:0x000000000a2ac6a0>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2355,7 +2341,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x000000000845da00>[0m
+       [31m  undefined method `body=' for #<Book:0x000000000a442fa0>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2374,7 +2360,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x00000000085f6970>[0m
+       [31m  undefined method `body=' for #<Book:0x000000000a5e5970>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2393,7 +2379,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x000000000875b7c0>[0m
+       [31m  undefined method `body=' for #<Book:0x000000000a792138>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2412,7 +2398,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x000000000896ee18>[0m
+       [31m  undefined method `body=' for #<Book:0x000000000928fb00>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2431,7 +2417,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x0000000008a4edd8>[0m
+       [31m  undefined method `body=' for #<Book:0x000000000a34fbe8>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2450,7 +2436,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x0000000008b93928>[0m
+       [31m  undefined method `body=' for #<Book:0x0000000009b44570>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2469,7 +2455,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x0000000008cff370>[0m
+       [31m  undefined method `body=' for #<Book:0x00007fa4a44e3608>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2488,7 +2474,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x0000000008e9bd00>[0m
+       [31m  undefined method `body=' for #<Book:0x0000000009225f98>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2507,7 +2493,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x0000000009052dd8>[0m
+       [31m  undefined method `body=' for #<Book:0x00000000083accf0>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2526,7 +2512,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x00007f846459aed0>[0m
+       [31m  undefined method `body=' for #<Book:0x00000000084e6e90>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2545,7 +2531,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x00007f84645ba640>[0m
+       [31m  undefined method `body=' for #<Book:0x00000000086ea278>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2564,7 +2550,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x0000000008690d90>[0m
+       [31m  undefined method `body=' for #<Book:0x000000000888ed18>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2583,7 +2569,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x0000000007ae6cb0>[0m
+       [31m  undefined method `body=' for #<Book:0x0000000008a1f0d8>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2602,7 +2588,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x0000000008e7a178>[0m
+       [31m  undefined method `body=' for #<Book:0x00007fa4a0120650>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2621,7 +2607,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x0000000006aa9370>[0m
+       [31m  undefined method `body=' for #<Book:0x0000000008b4a2f0>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2640,7 +2626,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x0000000006b77c48>[0m
+       [31m  undefined method `body=' for #<Book:0x0000000008d9ac80>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2659,7 +2645,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x0000000006deac50>[0m
+       [31m  undefined method `body=' for #<Book:0x0000000008f4b228>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2678,7 +2664,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x00007f845c015df0>[0m
+       [31m  undefined method `body=' for #<Book:0x000000000920f978>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2697,7 +2683,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x0000000006fe9880>[0m
+       [31m  undefined method `body=' for #<Book:0x00000000093cea20>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2716,7 +2702,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x0000000006b996b8>[0m
+       [31m  undefined method `body=' for #<Book:0x000000000957edc0>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2735,7 +2721,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x0000000006343040>[0m
+       [31m  undefined method `body=' for #<Book:0x00000000096c4d88>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2754,7 +2740,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x000000000725d350>[0m
+       [31m  undefined method `body=' for #<Book:0x00000000098a61d8>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2773,7 +2759,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x0000000007485240>[0m
+       [31m  undefined method `body=' for #<Book:0x0000000009a0da58>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2792,7 +2778,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x00000000077a6fc8>[0m
+       [31m  undefined method `body=' for #<Book:0x0000000009c7c640>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2811,7 +2797,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x00000000079bce20>[0m
+       [31m  undefined method `body=' for #<Book:0x0000000009e1ea48>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2830,7 +2816,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x0000000007bfe1e8>[0m
+       [31m  undefined method `body=' for #<Book:0x0000000009f31b10>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2849,7 +2835,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x0000000007d81470>[0m
+       [31m  undefined method `body=' for #<Book:0x000000000a121bc8>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2868,7 +2854,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x0000000007edf060>[0m
+       [31m  undefined method `body=' for #<Book:0x000000000a211830>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2887,7 +2873,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x000000000807cb98>[0m
+       [31m  undefined method `body=' for #<Book:0x000000000a35eaf8>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2906,7 +2892,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x000000000823edc8>[0m
+       [31m  undefined method `body=' for #<Book:0x000000000a4d2858>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2925,7 +2911,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x000000000849ce30>[0m
+       [31m  undefined method `body=' for #<Book:0x000000000a677ed8>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2944,7 +2930,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x000000000866d098>[0m
+       [31m  undefined method `body=' for #<Book:0x0000000009a74d98>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2963,7 +2949,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x00000000087a8a48>[0m
+       [31m  undefined method `body=' for #<Book:0x000000000a7800c8>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2982,7 +2968,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x00007f84644629a0>[0m
+       [31m  undefined method `body=' for #<Book:0x000000000a34d1b8>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -3001,7 +2987,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x00007f845c3f0240>[0m
+       [31m  undefined method `body=' for #<Book:0x00007fa4a05457d0>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -3020,7 +3006,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x0000000008bd9b58>[0m
+       [31m  undefined method `body=' for #<Book:0x000000000a01c9a8>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -3039,7 +3025,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x0000000008d6cbc8>[0m
+       [31m  undefined method `body=' for #<Book:0x00007fa4a4530660>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -3058,7 +3044,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x0000000008f34c58>[0m
+       [31m  undefined method `body=' for #<Book:0x00000000083f6440>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -3077,7 +3063,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x00000000078ed530>[0m
+       [31m  undefined method `body=' for #<Book:0x00000000084ef0b8>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -3096,7 +3082,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x000000000812b1e8>[0m
+       [31m  undefined method `body=' for #<Book:0x00000000086f01a0>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -3115,7 +3101,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x00000000085c4b78>[0m
+       [31m  undefined method `body=' for #<Book:0x00007fa4a009b018>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -3134,7 +3120,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x0000000008a306a8>[0m
+       [31m  undefined method `body=' for #<Book:0x0000000008a2f348>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -3153,7 +3139,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x00000000082e38c8>[0m
+       [31m  undefined method `body=' for #<Book:0x0000000008ab6438>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -3172,7 +3158,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x00007f845c522140>[0m
+       [31m  undefined method `body=' for #<Book:0x0000000008c3a818>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -3191,7 +3177,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x0000000006b24de0>[0m
+       [31m  undefined method `body=' for #<Book:0x0000000008eadd20>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -3210,7 +3196,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x0000000006c2c620>[0m
+       [31m  undefined method `body=' for #<Book:0x000000000911fb80>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -3229,7 +3215,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x0000000006e38a90>[0m
+       [31m  undefined method `body=' for #<Book:0x000000000936a7a0>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -3248,7 +3234,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x0000000006f9a848>[0m
+       [31m  undefined method `body=' for #<Book:0x00000000094c4448>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -3267,7 +3253,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x0000000006ffbf08>[0m
+       [31m  undefined method `body=' for #<Book:0x0000000009618a38>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -3286,7 +3272,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x0000000006782b10>[0m
+       [31m  undefined method `body=' for #<Book:0x00000000097bd5c8>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -3305,7 +3291,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x0000000007131eb8>[0m
+       [31m  undefined method `body=' for #<Book:0x00000000099709d8>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -3324,7 +3310,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x00000000073589a8>[0m
+       [31m  undefined method `body=' for #<Book:0x0000000009ba1658>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -3343,7 +3329,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x0000000007566970>[0m
+       [31m  undefined method `body=' for #<Book:0x0000000009d88930>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -3362,7 +3348,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x000000000789ef48>[0m
+       [31m  undefined method `body=' for #<Book:0x0000000009ef2348>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -3381,7 +3367,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x0000000007b00f98>[0m
+       [31m  undefined method `body=' for #<Book:0x000000000a0bc4a8>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -3400,7 +3386,7 @@ Failures:
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x0000000007ce7c80>[0m
+       [31m  undefined method `body=' for #<Book:0x000000000a1ab030>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -3415,7 +3401,7 @@ Failures:
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
        [36m# ./spec/system/03_finishing_touches_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-Finished in 19.01 seconds (files took 1.46 seconds to load)
+Finished in 6.25 seconds (files took 0.97265 seconds to load)
 [31m199 examples, 174 failures[0m
 
 Failed examples:
