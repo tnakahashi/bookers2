@@ -1,3 +1,15 @@
+<header>
+  <%= link_to "Bookers", root_path %>
+  <%= link_to user_path(current_user.id) do %> 
+    <p>Home</p> 
+  <% end %>
+  <%= link_to user_path(current_user.id) do %> 
+    <p>Users</p> 
+  <% end %>
+  <%= link_to books_path do %> <p>Books</p> <% end %>
+  <%= link_to "Log out", destroy_user_session_path, method: :delete %>
+</header>
+
 <% @books.each do |book| %>
 <div>
   <%= link_to book_path(book.id) do %>
