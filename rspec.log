@@ -62,7 +62,7 @@ Userモデルのテスト
 [32m      Sign upボタンが表示される[0m
     新規登録成功のテスト
 [32m      正しく新規登録される[0m
-[31m      新規登録後のリダイレクト先が、新規登録できたユーザの詳細画面になっている (FAILED - 15)[0m
+[32m      新規登録後のリダイレクト先が、新規登録できたユーザの詳細画面になっている[0m
   ユーザログイン
     表示内容の確認
 [32m      URLが正しい[0m
@@ -72,216 +72,216 @@ Userモデルのテスト
 [32m      Log inボタンが表示される[0m
 [32m      emailフォームは表示されない[0m
     ログイン成功のテスト
-[31m      ログイン後のリダイレクト先が、ログインしたユーザの詳細画面になっている (FAILED - 16)[0m
+[32m      ログイン後のリダイレクト先が、ログインしたユーザの詳細画面になっている[0m
     ログイン失敗のテスト
 [32m      ログインに失敗し、ログイン画面にリダイレクトされる[0m
   ヘッダーのテスト: ログインしている場合
     ヘッダーの表示を確認
-[31m      Bookersリンクが表示される: 左上から1番目のリンクが「Bookers」である (FAILED - 17)[0m
-[31m      Homeリンクが表示される: 左上から2番目のリンクが「Home」である (FAILED - 18)[0m
-[31m      Usersリンクが表示される: 左上から3番目のリンクが「Users」である (FAILED - 19)[0m
-[31m      Booksリンクが表示される: 左上から4番目のリンクが「Books」である (FAILED - 20)[0m
-[31m      Log outリンクが表示される: 左上から5番目のリンクが「Log out」である (FAILED - 21)[0m
+[31m      Bookersリンクが表示される: 左上から1番目のリンクが「Bookers」である (FAILED - 15)[0m
+[31m      Homeリンクが表示される: 左上から2番目のリンクが「Home」である (FAILED - 16)[0m
+[31m      Usersリンクが表示される: 左上から3番目のリンクが「Users」である (FAILED - 17)[0m
+[31m      Booksリンクが表示される: 左上から4番目のリンクが「Books」である (FAILED - 18)[0m
+[31m      Log outリンクが表示される: 左上から5番目のリンクが「Log out」である (FAILED - 19)[0m
   ユーザログアウトのテスト
     ログアウト機能のテスト
-[31m      正しくログアウトできている: ログアウト後のリダイレクト先においてAbout画面へのリンクが存在する (FAILED - 22)[0m
-[31m      ログアウト後のリダイレクト先が、トップになっている (FAILED - 23)[0m
+[31m      正しくログアウトできている: ログアウト後のリダイレクト先においてAbout画面へのリンクが存在する (FAILED - 20)[0m
+[31m      ログアウト後のリダイレクト先が、トップになっている (FAILED - 21)[0m
 
 [STEP2] ユーザログイン後のテスト
   ヘッダーのテスト: ログインしている場合
     リンクの内容を確認: ※logoutは『ユーザログアウトのテスト』でテスト済みになります。
-[31m      Homeを押すと、自分のユーザ詳細画面に遷移する (FAILED - 24)[0m
-[31m      Usersを押すと、ユーザ一覧画面に遷移する (FAILED - 25)[0m
-[31m      Booksを押すと、投稿一覧画面に遷移する (FAILED - 26)[0m
+[31m      Homeを押すと、自分のユーザ詳細画面に遷移する (FAILED - 22)[0m
+[31m      Usersを押すと、ユーザ一覧画面に遷移する (FAILED - 23)[0m
+[31m      Booksを押すと、投稿一覧画面に遷移する (FAILED - 24)[0m
   投稿一覧画面のテスト
     表示内容の確認
-[31m      URLが正しい (FAILED - 27)[0m
-[31m      自分と他人の画像のリンク先が正しい (FAILED - 28)[0m
-[31m      自分の投稿と他人の投稿のタイトルのリンク先がそれぞれ正しい (FAILED - 29)[0m
-[31m      自分の投稿と他人の投稿のオピニオンが表示される (FAILED - 30)[0m
+[31m      URLが正しい (FAILED - 25)[0m
+[31m      自分と他人の画像のリンク先が正しい (FAILED - 26)[0m
+[31m      自分の投稿と他人の投稿のタイトルのリンク先がそれぞれ正しい (FAILED - 27)[0m
+[31m      自分の投稿と他人の投稿のオピニオンが表示される (FAILED - 28)[0m
     サイドバーの確認
-[31m      自分の名前と紹介文が表示される (FAILED - 31)[0m
-[31m      自分のユーザ編集画面へのリンクが存在する (FAILED - 32)[0m
-[31m      「New book」と表示される (FAILED - 33)[0m
-[31m      titleフォームが表示される (FAILED - 34)[0m
-[31m      titleフォームに値が入っていない (FAILED - 35)[0m
-[31m      bodyフォームが表示される (FAILED - 36)[0m
-[31m      bodyフォームに値が入っていない (FAILED - 37)[0m
-[31m      Create Bookボタンが表示される (FAILED - 38)[0m
+[31m      自分の名前と紹介文が表示される (FAILED - 29)[0m
+[31m      自分のユーザ編集画面へのリンクが存在する (FAILED - 30)[0m
+[31m      「New book」と表示される (FAILED - 31)[0m
+[31m      titleフォームが表示される (FAILED - 32)[0m
+[31m      titleフォームに値が入っていない (FAILED - 33)[0m
+[31m      bodyフォームが表示される (FAILED - 34)[0m
+[31m      bodyフォームに値が入っていない (FAILED - 35)[0m
+[31m      Create Bookボタンが表示される (FAILED - 36)[0m
     投稿成功のテスト
-[31m      自分の新しい投稿が正しく保存される (FAILED - 39)[0m
-[31m      リダイレクト先が、保存できた投稿の詳細画面になっている (FAILED - 40)[0m
+[31m      自分の新しい投稿が正しく保存される (FAILED - 37)[0m
+[31m      リダイレクト先が、保存できた投稿の詳細画面になっている (FAILED - 38)[0m
   自分の投稿詳細画面のテスト
     表示内容の確認
-[31m      URLが正しい (FAILED - 41)[0m
-[31m      「Book detail」と表示される (FAILED - 42)[0m
-[31m      ユーザ画像・名前のリンク先が正しい (FAILED - 43)[0m
-[31m      投稿のtitleが表示される (FAILED - 44)[0m
-[31m      投稿のbodyが表示される (FAILED - 45)[0m
-[31m      投稿の編集リンクが表示される (FAILED - 46)[0m
-[31m      投稿の削除リンクが表示される (FAILED - 47)[0m
+[31m      URLが正しい (FAILED - 39)[0m
+[31m      「Book detail」と表示される (FAILED - 40)[0m
+[31m      ユーザ画像・名前のリンク先が正しい (FAILED - 41)[0m
+[31m      投稿のtitleが表示される (FAILED - 42)[0m
+[31m      投稿のbodyが表示される (FAILED - 43)[0m
+[31m      投稿の編集リンクが表示される (FAILED - 44)[0m
+[31m      投稿の削除リンクが表示される (FAILED - 45)[0m
     サイドバーの確認
-[31m      自分の名前と紹介文が表示される (FAILED - 48)[0m
-[31m      自分のユーザ編集画面へのリンクが存在する (FAILED - 49)[0m
-[31m      「New book」と表示される (FAILED - 50)[0m
-[31m      titleフォームが表示される (FAILED - 51)[0m
-[31m      titleフォームに値が入っていない (FAILED - 52)[0m
-[31m      bodyフォームが表示される (FAILED - 53)[0m
-[31m      bodyフォームに値が入っていない (FAILED - 54)[0m
-[31m      Create Bookボタンが表示される (FAILED - 55)[0m
+[31m      自分の名前と紹介文が表示される (FAILED - 46)[0m
+[31m      自分のユーザ編集画面へのリンクが存在する (FAILED - 47)[0m
+[31m      「New book」と表示される (FAILED - 48)[0m
+[31m      titleフォームが表示される (FAILED - 49)[0m
+[31m      titleフォームに値が入っていない (FAILED - 50)[0m
+[31m      bodyフォームが表示される (FAILED - 51)[0m
+[31m      bodyフォームに値が入っていない (FAILED - 52)[0m
+[31m      Create Bookボタンが表示される (FAILED - 53)[0m
     投稿成功のテスト
-[31m      自分の新しい投稿が正しく保存される (FAILED - 56)[0m
+[31m      自分の新しい投稿が正しく保存される (FAILED - 54)[0m
     編集リンクのテスト
-[31m      編集画面に遷移する (FAILED - 57)[0m
+[31m      編集画面に遷移する (FAILED - 55)[0m
     削除リンクのテスト
-[31m      application.html.erbにjavascript_pack_tagを含んでいる (FAILED - 58)[0m
-[31m      正しく削除される (FAILED - 59)[0m
-[31m      リダイレクト先が、投稿一覧画面になっている (FAILED - 60)[0m
+[31m      application.html.erbにjavascript_pack_tagを含んでいる (FAILED - 56)[0m
+[31m      正しく削除される (FAILED - 57)[0m
+[31m      リダイレクト先が、投稿一覧画面になっている (FAILED - 58)[0m
   自分の投稿編集画面のテスト
     表示の確認
-[31m      URLが正しい (FAILED - 61)[0m
-[31m      「Editing Book」と表示される (FAILED - 62)[0m
-[31m      title編集フォームが表示される (FAILED - 63)[0m
-[31m      body編集フォームが表示される (FAILED - 64)[0m
-[31m      Update Bookボタンが表示される (FAILED - 65)[0m
-[31m      Showリンクが表示される (FAILED - 66)[0m
-[31m      Backリンクが表示される (FAILED - 67)[0m
+[31m      URLが正しい (FAILED - 59)[0m
+[31m      「Editing Book」と表示される (FAILED - 60)[0m
+[31m      title編集フォームが表示される (FAILED - 61)[0m
+[31m      body編集フォームが表示される (FAILED - 62)[0m
+[31m      Update Bookボタンが表示される (FAILED - 63)[0m
+[31m      Showリンクが表示される (FAILED - 64)[0m
+[31m      Backリンクが表示される (FAILED - 65)[0m
     編集成功のテスト
-[31m      titleが正しく更新される (FAILED - 68)[0m
-[31m      bodyが正しく更新される (FAILED - 69)[0m
-[31m      リダイレクト先が、更新した投稿の詳細画面になっている (FAILED - 70)[0m
+[31m      titleが正しく更新される (FAILED - 66)[0m
+[31m      bodyが正しく更新される (FAILED - 67)[0m
+[31m      リダイレクト先が、更新した投稿の詳細画面になっている (FAILED - 68)[0m
   ユーザ一覧画面のテスト
     表示内容の確認
-[31m      URLが正しい (FAILED - 71)[0m
-[31m      自分と他人の画像が表示される: fallbackの画像がサイドバーの1つ＋一覧(2人)の2つの計3つ存在する (FAILED - 72)[0m
-[31m      自分と他人の名前がそれぞれ表示される (FAILED - 73)[0m
-[31m      自分と他人のshowリンクがそれぞれ表示される (FAILED - 74)[0m
+[31m      URLが正しい (FAILED - 69)[0m
+[31m      自分と他人の画像が表示される: fallbackの画像がサイドバーの1つ＋一覧(2人)の2つの計3つ存在する (FAILED - 70)[0m
+[31m      自分と他人の名前がそれぞれ表示される (FAILED - 71)[0m
+[31m      自分と他人のshowリンクがそれぞれ表示される (FAILED - 72)[0m
     サイドバーの確認
-[31m      自分の名前と紹介文が表示される (FAILED - 75)[0m
-[31m      自分のユーザ編集画面へのリンクが存在する (FAILED - 76)[0m
-[31m      「New book」と表示される (FAILED - 77)[0m
-[31m      titleフォームが表示される (FAILED - 78)[0m
-[31m      titleフォームに値が入っていない (FAILED - 79)[0m
-[31m      bodyフォームが表示される (FAILED - 80)[0m
-[31m      bodyフォームに値が入っていない (FAILED - 81)[0m
-[31m      Create Bookボタンが表示される (FAILED - 82)[0m
+[31m      自分の名前と紹介文が表示される (FAILED - 73)[0m
+[31m      自分のユーザ編集画面へのリンクが存在する (FAILED - 74)[0m
+[31m      「New book」と表示される (FAILED - 75)[0m
+[31m      titleフォームが表示される (FAILED - 76)[0m
+[31m      titleフォームに値が入っていない (FAILED - 77)[0m
+[31m      bodyフォームが表示される (FAILED - 78)[0m
+[31m      bodyフォームに値が入っていない (FAILED - 79)[0m
+[31m      Create Bookボタンが表示される (FAILED - 80)[0m
   自分のユーザ詳細画面のテスト
     表示の確認
-[31m      URLが正しい (FAILED - 83)[0m
-[31m      投稿一覧のユーザ画像のリンク先が正しい (FAILED - 84)[0m
-[31m      投稿一覧に自分の投稿のtitleが表示され、リンクが正しい (FAILED - 85)[0m
-[31m      投稿一覧に自分の投稿のbodyが表示される (FAILED - 86)[0m
-[31m      他人の投稿は表示されない (FAILED - 87)[0m
+[31m      URLが正しい (FAILED - 81)[0m
+[31m      投稿一覧のユーザ画像のリンク先が正しい (FAILED - 82)[0m
+[31m      投稿一覧に自分の投稿のtitleが表示され、リンクが正しい (FAILED - 83)[0m
+[31m      投稿一覧に自分の投稿のbodyが表示される (FAILED - 84)[0m
+[31m      他人の投稿は表示されない (FAILED - 85)[0m
     サイドバーの確認
-[31m      自分の名前と紹介文が表示される (FAILED - 88)[0m
-[31m      自分のユーザ編集画面へのリンクが存在する (FAILED - 89)[0m
-[31m      「New book」と表示される (FAILED - 90)[0m
-[31m      titleフォームが表示される (FAILED - 91)[0m
-[31m      titleフォームに値が入っていない (FAILED - 92)[0m
-[31m      bodyフォームが表示される (FAILED - 93)[0m
-[31m      bodyフォームに値が入っていない (FAILED - 94)[0m
-[31m      Create Bookボタンが表示される (FAILED - 95)[0m
+[31m      自分の名前と紹介文が表示される (FAILED - 86)[0m
+[31m      自分のユーザ編集画面へのリンクが存在する (FAILED - 87)[0m
+[31m      「New book」と表示される (FAILED - 88)[0m
+[31m      titleフォームが表示される (FAILED - 89)[0m
+[31m      titleフォームに値が入っていない (FAILED - 90)[0m
+[31m      bodyフォームが表示される (FAILED - 91)[0m
+[31m      bodyフォームに値が入っていない (FAILED - 92)[0m
+[31m      Create Bookボタンが表示される (FAILED - 93)[0m
   自分のユーザ情報編集画面のテスト
     表示の確認
-[31m      URLが正しい (FAILED - 96)[0m
-[31m      名前編集フォームに自分の名前が表示される (FAILED - 97)[0m
-[31m      画像編集フォームが表示される (FAILED - 98)[0m
-[31m      自己紹介編集フォームに自分の自己紹介文が表示される (FAILED - 99)[0m
-[31m      Update Userボタンが表示される (FAILED - 100)[0m
+[31m      URLが正しい (FAILED - 94)[0m
+[31m      名前編集フォームに自分の名前が表示される (FAILED - 95)[0m
+[31m      画像編集フォームが表示される (FAILED - 96)[0m
+[31m      自己紹介編集フォームに自分の自己紹介文が表示される (FAILED - 97)[0m
+[31m      Update Userボタンが表示される (FAILED - 98)[0m
     更新成功のテスト
-[31m      nameが正しく更新される (FAILED - 101)[0m
-[31m      introductionが正しく更新される (FAILED - 102)[0m
-[31m      リダイレクト先が、自分のユーザ詳細画面になっている (FAILED - 103)[0m
+[31m      nameが正しく更新される (FAILED - 99)[0m
+[31m      introductionが正しく更新される (FAILED - 100)[0m
+[31m      リダイレクト先が、自分のユーザ詳細画面になっている (FAILED - 101)[0m
 
 [STEP3] 仕上げのテスト
   サクセスメッセージのテスト
-[31m    ユーザ新規登録成功時 (FAILED - 104)[0m
-[31m    ユーザログイン成功時 (FAILED - 105)[0m
-[31m    ユーザログアウト成功時 (FAILED - 106)[0m
-[31m    ユーザのプロフィール情報更新成功時 (FAILED - 107)[0m
-[31m    投稿データの新規投稿成功時: 投稿一覧画面から行います。 (FAILED - 108)[0m
-[31m    投稿データの更新成功時 (FAILED - 109)[0m
+[31m    ユーザ新規登録成功時 (FAILED - 102)[0m
+[31m    ユーザログイン成功時 (FAILED - 103)[0m
+[31m    ユーザログアウト成功時 (FAILED - 104)[0m
+[31m    ユーザのプロフィール情報更新成功時 (FAILED - 105)[0m
+[31m    投稿データの新規投稿成功時: 投稿一覧画面から行います。 (FAILED - 106)[0m
+[31m    投稿データの更新成功時 (FAILED - 107)[0m
   処理失敗時のテスト
     ユーザ新規登録失敗: nameを1文字にする
-[31m      新規登録されない (FAILED - 110)[0m
-[31m      新規登録画面を表示しており、フォームの内容が正しい (FAILED - 111)[0m
-[31m      バリデーションエラーが表示される (FAILED - 112)[0m
+[31m      新規登録されない (FAILED - 108)[0m
+[31m      新規登録画面を表示しており、フォームの内容が正しい (FAILED - 109)[0m
+[31m      バリデーションエラーが表示される (FAILED - 110)[0m
     ユーザのプロフィール情報編集失敗: nameを1文字にする
-[31m      更新されない (FAILED - 113)[0m
-[31m      ユーザ編集画面を表示しており、フォームの内容が正しい (FAILED - 114)[0m
-[31m      バリデーションエラーが表示される (FAILED - 115)[0m
+[31m      更新されない (FAILED - 111)[0m
+[31m      ユーザ編集画面を表示しており、フォームの内容が正しい (FAILED - 112)[0m
+[31m      バリデーションエラーが表示される (FAILED - 113)[0m
     投稿データの新規投稿失敗: 投稿一覧画面から行い、titleを空にする
-[31m      投稿が保存されない (FAILED - 116)[0m
-[31m      投稿一覧画面を表示している (FAILED - 117)[0m
-[31m      新規投稿フォームの内容が正しい (FAILED - 118)[0m
-[31m      バリデーションエラーが表示される (FAILED - 119)[0m
+[31m      投稿が保存されない (FAILED - 114)[0m
+[31m      投稿一覧画面を表示している (FAILED - 115)[0m
+[31m      新規投稿フォームの内容が正しい (FAILED - 116)[0m
+[31m      バリデーションエラーが表示される (FAILED - 117)[0m
     投稿データの更新失敗: titleを空にする
-[31m      投稿が更新されない (FAILED - 120)[0m
-[31m      投稿編集画面を表示しており、フォームの内容が正しい (FAILED - 121)[0m
-[31m      エラーメッセージが表示される (FAILED - 122)[0m
+[31m      投稿が更新されない (FAILED - 118)[0m
+[31m      投稿編集画面を表示しており、フォームの内容が正しい (FAILED - 119)[0m
+[31m      エラーメッセージが表示される (FAILED - 120)[0m
   ログインしていない場合のアクセス制限のテスト: アクセスできず、ログイン画面に遷移する
-[31m    ユーザ一覧画面 (FAILED - 123)[0m
-[31m    ユーザ詳細画面 (FAILED - 124)[0m
-[31m    ユーザ情報編集画面 (FAILED - 125)[0m
-[31m    投稿一覧画面 (FAILED - 126)[0m
-[31m    投稿詳細画面 (FAILED - 127)[0m
-[31m    投稿編集画面 (FAILED - 128)[0m
+[31m    ユーザ一覧画面 (FAILED - 121)[0m
+[31m    ユーザ詳細画面 (FAILED - 122)[0m
+[31m    ユーザ情報編集画面 (FAILED - 123)[0m
+[31m    投稿一覧画面 (FAILED - 124)[0m
+[31m    投稿詳細画面 (FAILED - 125)[0m
+[31m    投稿編集画面 (FAILED - 126)[0m
   他人の画面のテスト
     他人の投稿詳細画面のテスト
       表示内容の確認
-[31m        URLが正しい (FAILED - 129)[0m
-[31m        「Book detail」と表示される (FAILED - 130)[0m
-[31m        ユーザ画像・名前のリンク先が正しい (FAILED - 131)[0m
-[31m        投稿のtitleが表示される (FAILED - 132)[0m
-[31m        投稿のopinionが表示される (FAILED - 133)[0m
-[31m        投稿の編集リンクが表示されない (FAILED - 134)[0m
-[31m        投稿の削除リンクが表示されない (FAILED - 135)[0m
+[31m        URLが正しい (FAILED - 127)[0m
+[31m        「Book detail」と表示される (FAILED - 128)[0m
+[31m        ユーザ画像・名前のリンク先が正しい (FAILED - 129)[0m
+[31m        投稿のtitleが表示される (FAILED - 130)[0m
+[31m        投稿のopinionが表示される (FAILED - 131)[0m
+[31m        投稿の編集リンクが表示されない (FAILED - 132)[0m
+[31m        投稿の削除リンクが表示されない (FAILED - 133)[0m
       サイドバーの確認
-[31m        他人の名前と紹介文が表示される (FAILED - 136)[0m
-[31m        他人のユーザ編集画面へのリンクが存在する (FAILED - 137)[0m
-[31m        自分の名前と紹介文は表示されない (FAILED - 138)[0m
-[31m        自分のユーザ編集画面へのリンクは存在しない (FAILED - 139)[0m
+[31m        他人の名前と紹介文が表示される (FAILED - 134)[0m
+[31m        他人のユーザ編集画面へのリンクが存在する (FAILED - 135)[0m
+[31m        自分の名前と紹介文は表示されない (FAILED - 136)[0m
+[31m        自分のユーザ編集画面へのリンクは存在しない (FAILED - 137)[0m
     他人の投稿編集画面
-[31m      遷移できず、投稿一覧画面にリダイレクトされる (FAILED - 140)[0m
+[31m      遷移できず、投稿一覧画面にリダイレクトされる (FAILED - 138)[0m
     他人のユーザ詳細画面のテスト
       表示の確認
-[31m        URLが正しい (FAILED - 141)[0m
-[31m        投稿一覧のユーザ画像のリンク先が正しい (FAILED - 142)[0m
-[31m        投稿一覧に他人の投稿のtitleが表示され、リンクが正しい (FAILED - 143)[0m
-[31m        投稿一覧に他人の投稿のopinionが表示される (FAILED - 144)[0m
-[31m        自分の投稿は表示されない (FAILED - 145)[0m
+[31m        URLが正しい (FAILED - 139)[0m
+[31m        投稿一覧のユーザ画像のリンク先が正しい (FAILED - 140)[0m
+[31m        投稿一覧に他人の投稿のtitleが表示され、リンクが正しい (FAILED - 141)[0m
+[31m        投稿一覧に他人の投稿のopinionが表示される (FAILED - 142)[0m
+[31m        自分の投稿は表示されない (FAILED - 143)[0m
       サイドバーの確認
-[31m        他人の名前と紹介文が表示される (FAILED - 146)[0m
-[31m        他人のユーザ編集画面へのリンクが存在する (FAILED - 147)[0m
-[31m        自分の名前と紹介文は表示されない (FAILED - 148)[0m
-[31m        自分のユーザ編集画面へのリンクは存在しない (FAILED - 149)[0m
+[31m        他人の名前と紹介文が表示される (FAILED - 144)[0m
+[31m        他人のユーザ編集画面へのリンクが存在する (FAILED - 145)[0m
+[31m        自分の名前と紹介文は表示されない (FAILED - 146)[0m
+[31m        自分のユーザ編集画面へのリンクは存在しない (FAILED - 147)[0m
     他人のユーザ情報編集画面
-[31m      遷移できず、自分のユーザ詳細画面にリダイレクトされる (FAILED - 150)[0m
+[31m      遷移できず、自分のユーザ詳細画面にリダイレクトされる (FAILED - 148)[0m
   グリッドシステムのテスト: container, row, col-md-〇を正しく使えている
-[31m    ユーザ一覧画面 (FAILED - 151)[0m
-[31m    ユーザ詳細画面 (FAILED - 152)[0m
-[31m    投稿一覧画面 (FAILED - 153)[0m
-[31m    投稿詳細画面 (FAILED - 154)[0m
+[31m    ユーザ一覧画面 (FAILED - 149)[0m
+[31m    ユーザ詳細画面 (FAILED - 150)[0m
+[31m    投稿一覧画面 (FAILED - 151)[0m
+[31m    投稿詳細画面 (FAILED - 152)[0m
   アイコンのテスト
     トップ画面
-[31m      本のアイコンが表示される (FAILED - 155)[0m
+[31m      本のアイコンが表示される (FAILED - 153)[0m
     アバウト画面
-[31m      本のアイコンが表示される (FAILED - 156)[0m
+[31m      本のアイコンが表示される (FAILED - 154)[0m
     ヘッダー: ログインしていない場合
-[31m      Homeリンクのアイコンが表示される (FAILED - 157)[0m
-[31m      Aboutリンクのアイコンが表示される (FAILED - 158)[0m
-[31m      Sign upリンクのアイコンが表示される (FAILED - 159)[0m
-[31m      Log inリンクのアイコンが表示される (FAILED - 160)[0m
+[31m      Homeリンクのアイコンが表示される (FAILED - 155)[0m
+[31m      Aboutリンクのアイコンが表示される (FAILED - 156)[0m
+[31m      Sign upリンクのアイコンが表示される (FAILED - 157)[0m
+[31m      Log inリンクのアイコンが表示される (FAILED - 158)[0m
     ヘッダー: ログインしている場合
-[31m      Homeリンクのアイコンが表示される (FAILED - 161)[0m
-[31m      Usersリンクのアイコンが表示される (FAILED - 162)[0m
-[31m      Booksリンクのアイコンが表示される (FAILED - 163)[0m
-[31m      Log outリンクのアイコンが表示される (FAILED - 164)[0m
+[31m      Homeリンクのアイコンが表示される (FAILED - 159)[0m
+[31m      Usersリンクのアイコンが表示される (FAILED - 160)[0m
+[31m      Booksリンクのアイコンが表示される (FAILED - 161)[0m
+[31m      Log outリンクのアイコンが表示される (FAILED - 162)[0m
     サイドバー
-[31m      ユーザ一覧画面でレンチアイコンが表示される (FAILED - 165)[0m
-[31m      ユーザ詳細画面でレンチアイコンが表示される (FAILED - 166)[0m
-[31m      投稿一覧画面でレンチアイコンが表示される (FAILED - 167)[0m
-[31m      投稿詳細画面でレンチアイコンが表示される (FAILED - 168)[0m
+[31m      ユーザ一覧画面でレンチアイコンが表示される (FAILED - 163)[0m
+[31m      ユーザ詳細画面でレンチアイコンが表示される (FAILED - 164)[0m
+[31m      投稿一覧画面でレンチアイコンが表示される (FAILED - 165)[0m
+[31m      投稿詳細画面でレンチアイコンが表示される (FAILED - 166)[0m
 
 Failures:
 
@@ -289,7 +289,7 @@ Failures:
      [31mFailure/Error: let!(:book) { build(:book, user_id: user.id) }[0m
      [31m[0m
      [31mNoMethodError:[0m
-     [31m  undefined method `body=' for #<Book:0x00000000087ae7e0>[0m
+     [31m  undefined method `body=' for #<Book:0x0000000007d511d0>[0m
      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -308,7 +308,7 @@ Failures:
      [31mFailure/Error: let!(:book) { build(:book, user_id: user.id) }[0m
      [31m[0m
      [31mNoMethodError:[0m
-     [31m  undefined method `body=' for #<Book:0x00007f6754039338>[0m
+     [31m  undefined method `body=' for #<Book:0x0000000007f7d170>[0m
      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -327,7 +327,7 @@ Failures:
      [31mFailure/Error: let!(:book) { build(:book, user_id: user.id) }[0m
      [31m[0m
      [31mNoMethodError:[0m
-     [31m  undefined method `body=' for #<Book:0x00000000089c5d80>[0m
+     [31m  undefined method `body=' for #<Book:0x0000000004742198>[0m
      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -346,7 +346,7 @@ Failures:
      [31mFailure/Error: let!(:book) { build(:book, user_id: user.id) }[0m
      [31m[0m
      [31mNoMethodError:[0m
-     [31m  undefined method `body=' for #<Book:0x0000000008a17b80>[0m
+     [31m  undefined method `body=' for #<Book:0x0000000007bbd620>[0m
      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -459,25 +459,7 @@ Failures:
       [31m  (compared using ==)[0m
       [36m# ./spec/system/01_before_login_spec.rb:105:in `block (4 levels) in <main>'[0m
 
-  15) [STEP1] ユーザログイン前のテスト ユーザ新規登録のテスト 新規登録成功のテスト 新規登録後のリダイレクト先が、新規登録できたユーザの詳細画面になっている
-      [31mFailure/Error: expect(current_path).to eq '/users/' + User.last.id.to_s[0m
-      [31m[0m
-      [31m  expected: "/users/1"[0m
-      [31m       got: "/books"[0m
-      [31m[0m
-      [31m  (compared using ==)[0m
-      [36m# ./spec/system/01_before_login_spec.rb:152:in `block (4 levels) in <main>'[0m
-
-  16) [STEP1] ユーザログイン前のテスト ユーザログイン ログイン成功のテスト ログイン後のリダイレクト先が、ログインしたユーザの詳細画面になっている
-      [31mFailure/Error: expect(current_path).to eq '/users/' + user.id.to_s[0m
-      [31m[0m
-      [31m  expected: "/users/1"[0m
-      [31m       got: "/books"[0m
-      [31m[0m
-      [31m  (compared using ==)[0m
-      [36m# ./spec/system/01_before_login_spec.rb:193:in `block (4 levels) in <main>'[0m
-
-  17) [STEP1] ユーザログイン前のテスト ヘッダーのテスト: ログインしている場合 ヘッダーの表示を確認 Bookersリンクが表示される: 左上から1番目のリンクが「Bookers」である
+  15) [STEP1] ユーザログイン前のテスト ヘッダーのテスト: ログインしている場合 ヘッダーの表示を確認 Bookersリンクが表示される: 左上から1番目のリンクが「Bookers」である
       [31mFailure/Error: expect(home_link).to match(/Bookers/)[0m
       [31m[0m
       [31m  expected "" to match /Bookers/[0m
@@ -488,7 +470,7 @@ Failures:
       [31m  [0m[0m
       [36m# ./spec/system/01_before_login_spec.rb:223:in `block (4 levels) in <main>'[0m
 
-  18) [STEP1] ユーザログイン前のテスト ヘッダーのテスト: ログインしている場合 ヘッダーの表示を確認 Homeリンクが表示される: 左上から2番目のリンクが「Home」である
+  16) [STEP1] ユーザログイン前のテスト ヘッダーのテスト: ログインしている場合 ヘッダーの表示を確認 Homeリンクが表示される: 左上から2番目のリンクが「Home」である
       [31mFailure/Error: expect(home_link).to match(/Home/)[0m
       [31m[0m
       [31m  expected "Bookers" to match /Home/[0m
@@ -499,7 +481,7 @@ Failures:
       [31m  [0m[0m
       [36m# ./spec/system/01_before_login_spec.rb:227:in `block (4 levels) in <main>'[0m
 
-  19) [STEP1] ユーザログイン前のテスト ヘッダーのテスト: ログインしている場合 ヘッダーの表示を確認 Usersリンクが表示される: 左上から3番目のリンクが「Users」である
+  17) [STEP1] ユーザログイン前のテスト ヘッダーのテスト: ログインしている場合 ヘッダーの表示を確認 Usersリンクが表示される: 左上から3番目のリンクが「Users」である
       [31mFailure/Error: expect(users_link).to match(/Users/)[0m
       [31m[0m
       [31m  expected "Home" to match /Users/[0m
@@ -510,7 +492,7 @@ Failures:
       [31m  [0m[0m
       [36m# ./spec/system/01_before_login_spec.rb:231:in `block (4 levels) in <main>'[0m
 
-  20) [STEP1] ユーザログイン前のテスト ヘッダーのテスト: ログインしている場合 ヘッダーの表示を確認 Booksリンクが表示される: 左上から4番目のリンクが「Books」である
+  18) [STEP1] ユーザログイン前のテスト ヘッダーのテスト: ログインしている場合 ヘッダーの表示を確認 Booksリンクが表示される: 左上から4番目のリンクが「Books」である
       [31mFailure/Error: expect(books_link).to match(/Books/)[0m
       [31m[0m
       [31m  expected "Users" to match /Books/[0m
@@ -521,7 +503,7 @@ Failures:
       [31m  [0m[0m
       [36m# ./spec/system/01_before_login_spec.rb:235:in `block (4 levels) in <main>'[0m
 
-  21) [STEP1] ユーザログイン前のテスト ヘッダーのテスト: ログインしている場合 ヘッダーの表示を確認 Log outリンクが表示される: 左上から5番目のリンクが「Log out」である
+  19) [STEP1] ユーザログイン前のテスト ヘッダーのテスト: ログインしている場合 ヘッダーの表示を確認 Log outリンクが表示される: 左上から5番目のリンクが「Log out」である
       [31mFailure/Error: expect(logout_link).to match(/Log out/)[0m
       [31m[0m
       [31m  expected "Books" to match /Log out/[0m
@@ -532,12 +514,12 @@ Failures:
       [31m  [0m[0m
       [36m# ./spec/system/01_before_login_spec.rb:239:in `block (4 levels) in <main>'[0m
 
-  22) [STEP1] ユーザログイン前のテスト ユーザログアウトのテスト ログアウト機能のテスト 正しくログアウトできている: ログアウト後のリダイレクト先においてAbout画面へのリンクが存在する
+  20) [STEP1] ユーザログイン前のテスト ユーザログアウトのテスト ログアウト機能のテスト 正しくログアウトできている: ログアウト後のリダイレクト先においてAbout画面へのリンクが存在する
       [31mFailure/Error: expect(page).to have_link '', href: '/home/about'[0m
       [31m  expected to find link "" with href "/home/about" but there were no matches[0m
       [36m# ./spec/system/01_before_login_spec.rb:259:in `block (4 levels) in <main>'[0m
 
-  23) [STEP1] ユーザログイン前のテスト ユーザログアウトのテスト ログアウト機能のテスト ログアウト後のリダイレクト先が、トップになっている
+  21) [STEP1] ユーザログイン前のテスト ユーザログアウトのテスト ログアウト機能のテスト ログアウト後のリダイレクト先が、トップになっている
       [31mFailure/Error: expect(current_path).to eq '/'[0m
       [31m[0m
       [31m  expected: "/"[0m
@@ -546,11 +528,11 @@ Failures:
       [31m  (compared using ==)[0m
       [36m# ./spec/system/01_before_login_spec.rb:262:in `block (4 levels) in <main>'[0m
 
-  24) [STEP2] ユーザログイン後のテスト ヘッダーのテスト: ログインしている場合 リンクの内容を確認: ※logoutは『ユーザログアウトのテスト』でテスト済みになります。 Homeを押すと、自分のユーザ詳細画面に遷移する
+  22) [STEP2] ユーザログイン後のテスト ヘッダーのテスト: ログインしている場合 リンクの内容を確認: ※logoutは『ユーザログアウトのテスト』でテスト済みになります。 Homeを押すと、自分のユーザ詳細画面に遷移する
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x000000000a72c978>[0m
+      [31m  undefined method `body=' for #<Book:0x00000000097d8030>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -565,11 +547,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/02_after_login_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  25) [STEP2] ユーザログイン後のテスト ヘッダーのテスト: ログインしている場合 リンクの内容を確認: ※logoutは『ユーザログアウトのテスト』でテスト済みになります。 Usersを押すと、ユーザ一覧画面に遷移する
+  23) [STEP2] ユーザログイン後のテスト ヘッダーのテスト: ログインしている場合 リンクの内容を確認: ※logoutは『ユーザログアウトのテスト』でテスト済みになります。 Usersを押すと、ユーザ一覧画面に遷移する
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x00007f67543fcf10>[0m
+      [31m  undefined method `body=' for #<Book:0x00000000081f7ec8>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -584,11 +566,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/02_after_login_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  26) [STEP2] ユーザログイン後のテスト ヘッダーのテスト: ログインしている場合 リンクの内容を確認: ※logoutは『ユーザログアウトのテスト』でテスト済みになります。 Booksを押すと、投稿一覧画面に遷移する
+  24) [STEP2] ユーザログイン後のテスト ヘッダーのテスト: ログインしている場合 リンクの内容を確認: ※logoutは『ユーザログアウトのテスト』でテスト済みになります。 Booksを押すと、投稿一覧画面に遷移する
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x000000000a827aa8>[0m
+      [31m  undefined method `body=' for #<Book:0x0000000008d8fad8>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -603,11 +585,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/02_after_login_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  27) [STEP2] ユーザログイン後のテスト 投稿一覧画面のテスト 表示内容の確認 URLが正しい
+  25) [STEP2] ユーザログイン後のテスト 投稿一覧画面のテスト 表示内容の確認 URLが正しい
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x000000000a8a14e8>[0m
+      [31m  undefined method `body=' for #<Book:0x0000000008b63228>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -622,11 +604,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/02_after_login_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  28) [STEP2] ユーザログイン後のテスト 投稿一覧画面のテスト 表示内容の確認 自分と他人の画像のリンク先が正しい
+  26) [STEP2] ユーザログイン後のテスト 投稿一覧画面のテスト 表示内容の確認 自分と他人の画像のリンク先が正しい
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x000000000855f840>[0m
+      [31m  undefined method `body=' for #<Book:0x0000000008a2f348>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -641,11 +623,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/02_after_login_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  29) [STEP2] ユーザログイン後のテスト 投稿一覧画面のテスト 表示内容の確認 自分の投稿と他人の投稿のタイトルのリンク先がそれぞれ正しい
+  27) [STEP2] ユーザログイン後のテスト 投稿一覧画面のテスト 表示内容の確認 自分の投稿と他人の投稿のタイトルのリンク先がそれぞれ正しい
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x00000000086754c8>[0m
+      [31m  undefined method `body=' for #<Book:0x0000000008cdd7c0>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -660,11 +642,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/02_after_login_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  30) [STEP2] ユーザログイン後のテスト 投稿一覧画面のテスト 表示内容の確認 自分の投稿と他人の投稿のオピニオンが表示される
+  28) [STEP2] ユーザログイン後のテスト 投稿一覧画面のテスト 表示内容の確認 自分の投稿と他人の投稿のオピニオンが表示される
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x0000000008879990>[0m
+      [31m  undefined method `body=' for #<Book:0x0000000009830fa0>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -679,11 +661,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/02_after_login_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  31) [STEP2] ユーザログイン後のテスト 投稿一覧画面のテスト サイドバーの確認 自分の名前と紹介文が表示される
+  29) [STEP2] ユーザログイン後のテスト 投稿一覧画面のテスト サイドバーの確認 自分の名前と紹介文が表示される
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x00000000089d5528>[0m
+      [31m  undefined method `body=' for #<Book:0x00000000098f2830>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -698,11 +680,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/02_after_login_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  32) [STEP2] ユーザログイン後のテスト 投稿一覧画面のテスト サイドバーの確認 自分のユーザ編集画面へのリンクが存在する
+  30) [STEP2] ユーザログイン後のテスト 投稿一覧画面のテスト サイドバーの確認 自分のユーザ編集画面へのリンクが存在する
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x00007f67540b8200>[0m
+      [31m  undefined method `body=' for #<Book:0x00007f01ac505bb8>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -717,11 +699,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/02_after_login_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  33) [STEP2] ユーザログイン後のテスト 投稿一覧画面のテスト サイドバーの確認 「New book」と表示される
+  31) [STEP2] ユーザログイン後のテスト 投稿一覧画面のテスト サイドバーの確認 「New book」と表示される
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x00000000081d4fb8>[0m
+      [31m  undefined method `body=' for #<Book:0x00000000099fa9a8>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -736,11 +718,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/02_after_login_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  34) [STEP2] ユーザログイン後のテスト 投稿一覧画面のテスト サイドバーの確認 titleフォームが表示される
+  32) [STEP2] ユーザログイン後のテスト 投稿一覧画面のテスト サイドバーの確認 titleフォームが表示される
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x0000000008b76918>[0m
+      [31m  undefined method `body=' for #<Book:0x00007f01ac54d1e8>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -755,11 +737,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/02_after_login_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  35) [STEP2] ユーザログイン後のテスト 投稿一覧画面のテスト サイドバーの確認 titleフォームに値が入っていない
+  33) [STEP2] ユーザログイン後のテスト 投稿一覧画面のテスト サイドバーの確認 titleフォームに値が入っていない
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x0000000008d40d70>[0m
+      [31m  undefined method `body=' for #<Book:0x00007f01ac558368>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -774,11 +756,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/02_after_login_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  36) [STEP2] ユーザログイン後のテスト 投稿一覧画面のテスト サイドバーの確認 bodyフォームが表示される
+  34) [STEP2] ユーザログイン後のテスト 投稿一覧画面のテスト サイドバーの確認 bodyフォームが表示される
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x0000000008f2d4f8>[0m
+      [31m  undefined method `body=' for #<Book:0x0000000009b9ca40>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -793,11 +775,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/02_after_login_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  37) [STEP2] ユーザログイン後のテスト 投稿一覧画面のテスト サイドバーの確認 bodyフォームに値が入っていない
+  35) [STEP2] ユーザログイン後のテスト 投稿一覧画面のテスト サイドバーの確認 bodyフォームに値が入っていない
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x00000000092374c8>[0m
+      [31m  undefined method `body=' for #<Book:0x00000000072ff268>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -812,11 +794,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/02_after_login_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  38) [STEP2] ユーザログイン後のテスト 投稿一覧画面のテスト サイドバーの確認 Create Bookボタンが表示される
+  36) [STEP2] ユーザログイン後のテスト 投稿一覧画面のテスト サイドバーの確認 Create Bookボタンが表示される
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x0000000009404e40>[0m
+      [31m  undefined method `body=' for #<Book:0x0000000007c76238>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -831,11 +813,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/02_after_login_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  39) [STEP2] ユーザログイン後のテスト 投稿一覧画面のテスト 投稿成功のテスト 自分の新しい投稿が正しく保存される
+  37) [STEP2] ユーザログイン後のテスト 投稿一覧画面のテスト 投稿成功のテスト 自分の新しい投稿が正しく保存される
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x000000000962ca88>[0m
+      [31m  undefined method `body=' for #<Book:0x0000000007ec3928>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -850,11 +832,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/02_after_login_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  40) [STEP2] ユーザログイン後のテスト 投稿一覧画面のテスト 投稿成功のテスト リダイレクト先が、保存できた投稿の詳細画面になっている
+  38) [STEP2] ユーザログイン後のテスト 投稿一覧画面のテスト 投稿成功のテスト リダイレクト先が、保存できた投稿の詳細画面になっている
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x0000000009833cc8>[0m
+      [31m  undefined method `body=' for #<Book:0x00007f01ac01bd28>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -869,11 +851,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/02_after_login_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  41) [STEP2] ユーザログイン後のテスト 自分の投稿詳細画面のテスト 表示内容の確認 URLが正しい
+  39) [STEP2] ユーザログイン後のテスト 自分の投稿詳細画面のテスト 表示内容の確認 URLが正しい
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x00000000099892d0>[0m
+      [31m  undefined method `body=' for #<Book:0x0000000007ca4700>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -888,11 +870,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/02_after_login_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  42) [STEP2] ユーザログイン後のテスト 自分の投稿詳細画面のテスト 表示内容の確認 「Book detail」と表示される
+  40) [STEP2] ユーザログイン後のテスト 自分の投稿詳細画面のテスト 表示内容の確認 「Book detail」と表示される
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x0000000009b31a10>[0m
+      [31m  undefined method `body=' for #<Book:0x000000000796f120>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -907,11 +889,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/02_after_login_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  43) [STEP2] ユーザログイン後のテスト 自分の投稿詳細画面のテスト 表示内容の確認 ユーザ画像・名前のリンク先が正しい
+  41) [STEP2] ユーザログイン後のテスト 自分の投稿詳細画面のテスト 表示内容の確認 ユーザ画像・名前のリンク先が正しい
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x0000000009c97300>[0m
+      [31m  undefined method `body=' for #<Book:0x0000000007355988>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -926,11 +908,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/02_after_login_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  44) [STEP2] ユーザログイン後のテスト 自分の投稿詳細画面のテスト 表示内容の確認 投稿のtitleが表示される
+  42) [STEP2] ユーザログイン後のテスト 自分の投稿詳細画面のテスト 表示内容の確認 投稿のtitleが表示される
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x0000000009e35bf8>[0m
+      [31m  undefined method `body=' for #<Book:0x000000000742b740>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -945,11 +927,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/02_after_login_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  45) [STEP2] ユーザログイン後のテスト 自分の投稿詳細画面のテスト 表示内容の確認 投稿のbodyが表示される
+  43) [STEP2] ユーザログイン後のテスト 自分の投稿詳細画面のテスト 表示内容の確認 投稿のbodyが表示される
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x000000000a0839f0>[0m
+      [31m  undefined method `body=' for #<Book:0x00000000082c21f0>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -964,11 +946,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/02_after_login_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  46) [STEP2] ユーザログイン後のテスト 自分の投稿詳細画面のテスト 表示内容の確認 投稿の編集リンクが表示される
+  44) [STEP2] ユーザログイン後のテスト 自分の投稿詳細画面のテスト 表示内容の確認 投稿の編集リンクが表示される
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x000000000a1edc50>[0m
+      [31m  undefined method `body=' for #<Book:0x00000000085982a8>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -983,11 +965,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/02_after_login_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  47) [STEP2] ユーザログイン後のテスト 自分の投稿詳細画面のテスト 表示内容の確認 投稿の削除リンクが表示される
+  45) [STEP2] ユーザログイン後のテスト 自分の投稿詳細画面のテスト 表示内容の確認 投稿の削除リンクが表示される
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x000000000a2d0de8>[0m
+      [31m  undefined method `body=' for #<Book:0x0000000008769668>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1002,11 +984,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/02_after_login_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  48) [STEP2] ユーザログイン後のテスト 自分の投稿詳細画面のテスト サイドバーの確認 自分の名前と紹介文が表示される
+  46) [STEP2] ユーザログイン後のテスト 自分の投稿詳細画面のテスト サイドバーの確認 自分の名前と紹介文が表示される
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x000000000a4f4e80>[0m
+      [31m  undefined method `body=' for #<Book:0x00000000089a5760>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1021,11 +1003,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/02_after_login_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  49) [STEP2] ユーザログイン後のテスト 自分の投稿詳細画面のテスト サイドバーの確認 自分のユーザ編集画面へのリンクが存在する
+  47) [STEP2] ユーザログイン後のテスト 自分の投稿詳細画面のテスト サイドバーの確認 自分のユーザ編集画面へのリンクが存在する
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x0000000008dcc5f0>[0m
+      [31m  undefined method `body=' for #<Book:0x0000000008bb1a90>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1040,11 +1022,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/02_after_login_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  50) [STEP2] ユーザログイン後のテスト 自分の投稿詳細画面のテスト サイドバーの確認 「New book」と表示される
+  48) [STEP2] ユーザログイン後のテスト 自分の投稿詳細画面のテスト サイドバーの確認 「New book」と表示される
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x0000000008d767e0>[0m
+      [31m  undefined method `body=' for #<Book:0x00000000090b4038>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1059,11 +1041,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/02_after_login_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  51) [STEP2] ユーザログイン後のテスト 自分の投稿詳細画面のテスト サイドバーの確認 titleフォームが表示される
+  49) [STEP2] ユーザログイン後のテスト 自分の投稿詳細画面のテスト サイドバーの確認 titleフォームが表示される
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x0000000008e1ae58>[0m
+      [31m  undefined method `body=' for #<Book:0x000000000925a360>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1078,11 +1060,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/02_after_login_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  52) [STEP2] ユーザログイン後のテスト 自分の投稿詳細画面のテスト サイドバーの確認 titleフォームに値が入っていない
+  50) [STEP2] ユーザログイン後のテスト 自分の投稿詳細画面のテスト サイドバーの確認 titleフォームに値が入っていない
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x000000000a68df80>[0m
+      [31m  undefined method `body=' for #<Book:0x00007f01a810fee0>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1097,11 +1079,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/02_after_login_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  53) [STEP2] ユーザログイン後のテスト 自分の投稿詳細画面のテスト サイドバーの確認 bodyフォームが表示される
+  51) [STEP2] ユーザログイン後のテスト 自分の投稿詳細画面のテスト サイドバーの確認 bodyフォームが表示される
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x000000000a72f330>[0m
+      [31m  undefined method `body=' for #<Book:0x00000000094e41a8>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1116,11 +1098,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/02_after_login_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  54) [STEP2] ユーザログイン後のテスト 自分の投稿詳細画面のテスト サイドバーの確認 bodyフォームに値が入っていない
+  52) [STEP2] ユーザログイン後のテスト 自分の投稿詳細画面のテスト サイドバーの確認 bodyフォームに値が入っていない
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x000000000a7e3560>[0m
+      [31m  undefined method `body=' for #<Book:0x00000000096300c0>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1135,11 +1117,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/02_after_login_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  55) [STEP2] ユーザログイン後のテスト 自分の投稿詳細画面のテスト サイドバーの確認 Create Bookボタンが表示される
+  53) [STEP2] ユーザログイン後のテスト 自分の投稿詳細画面のテスト サイドバーの確認 Create Bookボタンが表示される
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x000000000a891048>[0m
+      [31m  undefined method `body=' for #<Book:0x00000000097b9ef0>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1154,11 +1136,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/02_after_login_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  56) [STEP2] ユーザログイン後のテスト 自分の投稿詳細画面のテスト 投稿成功のテスト 自分の新しい投稿が正しく保存される
+  54) [STEP2] ユーザログイン後のテスト 自分の投稿詳細画面のテスト 投稿成功のテスト 自分の新しい投稿が正しく保存される
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x00007f675456e588>[0m
+      [31m  undefined method `body=' for #<Book:0x0000000008907678>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1173,11 +1155,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/02_after_login_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  57) [STEP2] ユーザログイン後のテスト 自分の投稿詳細画面のテスト 編集リンクのテスト 編集画面に遷移する
+  55) [STEP2] ユーザログイン後のテスト 自分の投稿詳細画面のテスト 編集リンクのテスト 編集画面に遷移する
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x00000000084f03f0>[0m
+      [31m  undefined method `body=' for #<Book:0x0000000008d4f2a8>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1192,11 +1174,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/02_after_login_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  58) [STEP2] ユーザログイン後のテスト 自分の投稿詳細画面のテスト 削除リンクのテスト application.html.erbにjavascript_pack_tagを含んでいる
+  56) [STEP2] ユーザログイン後のテスト 自分の投稿詳細画面のテスト 削除リンクのテスト application.html.erbにjavascript_pack_tagを含んでいる
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x00000000085b5768>[0m
+      [31m  undefined method `body=' for #<Book:0x00000000095b9ab0>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1211,11 +1193,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/02_after_login_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  59) [STEP2] ユーザログイン後のテスト 自分の投稿詳細画面のテスト 削除リンクのテスト 正しく削除される
+  57) [STEP2] ユーザログイン後のテスト 自分の投稿詳細画面のテスト 削除リンクのテスト 正しく削除される
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x00000000087e5a10>[0m
+      [31m  undefined method `body=' for #<Book:0x0000000008ca8548>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1230,11 +1212,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/02_after_login_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  60) [STEP2] ユーザログイン後のテスト 自分の投稿詳細画面のテスト 削除リンクのテスト リダイレクト先が、投稿一覧画面になっている
+  58) [STEP2] ユーザログイン後のテスト 自分の投稿詳細画面のテスト 削除リンクのテスト リダイレクト先が、投稿一覧画面になっている
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x00007f674c0128a8>[0m
+      [31m  undefined method `body=' for #<Book:0x0000000008cc9b30>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1249,11 +1231,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/02_after_login_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  61) [STEP2] ユーザログイン後のテスト 自分の投稿編集画面のテスト 表示の確認 URLが正しい
+  59) [STEP2] ユーザログイン後のテスト 自分の投稿編集画面のテスト 表示の確認 URLが正しい
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x0000000008a43640>[0m
+      [31m  undefined method `body=' for #<Book:0x00007f01ac4b3e80>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1268,11 +1250,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/02_after_login_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  62) [STEP2] ユーザログイン後のテスト 自分の投稿編集画面のテスト 表示の確認 「Editing Book」と表示される
+  60) [STEP2] ユーザログイン後のテスト 自分の投稿編集画面のテスト 表示の確認 「Editing Book」と表示される
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x0000000008ac14a0>[0m
+      [31m  undefined method `body=' for #<Book:0x00000000098b00c0>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1287,11 +1269,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/02_after_login_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  63) [STEP2] ユーザログイン後のテスト 自分の投稿編集画面のテスト 表示の確認 title編集フォームが表示される
+  61) [STEP2] ユーザログイン後のテスト 自分の投稿編集画面のテスト 表示の確認 title編集フォームが表示される
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x0000000007cface0>[0m
+      [31m  undefined method `body=' for #<Book:0x000000000995aa20>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1306,11 +1288,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/02_after_login_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  64) [STEP2] ユーザログイン後のテスト 自分の投稿編集画面のテスト 表示の確認 body編集フォームが表示される
+  62) [STEP2] ユーザログイン後のテスト 自分の投稿編集画面のテスト 表示の確認 body編集フォームが表示される
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x0000000008c91e10>[0m
+      [31m  undefined method `body=' for #<Book:0x00007f01a85b13b8>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1325,11 +1307,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/02_after_login_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  65) [STEP2] ユーザログイン後のテスト 自分の投稿編集画面のテスト 表示の確認 Update Bookボタンが表示される
+  63) [STEP2] ユーザログイン後のテスト 自分の投稿編集画面のテスト 表示の確認 Update Bookボタンが表示される
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x0000000008e8ae38>[0m
+      [31m  undefined method `body=' for #<Book:0x00007f01a85d95c0>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1344,11 +1326,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/02_after_login_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  66) [STEP2] ユーザログイン後のテスト 自分の投稿編集画面のテスト 表示の確認 Showリンクが表示される
+  64) [STEP2] ユーザログイン後のテスト 自分の投稿編集画面のテスト 表示の確認 Showリンクが表示される
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x00000000091b4500>[0m
+      [31m  undefined method `body=' for #<Book:0x0000000009ae74b0>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1363,11 +1345,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/02_after_login_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  67) [STEP2] ユーザログイン後のテスト 自分の投稿編集画面のテスト 表示の確認 Backリンクが表示される
+  65) [STEP2] ユーザログイン後のテスト 自分の投稿編集画面のテスト 表示の確認 Backリンクが表示される
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x0000000009396e40>[0m
+      [31m  undefined method `body=' for #<Book:0x0000000009b801d8>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1382,11 +1364,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/02_after_login_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  68) [STEP2] ユーザログイン後のテスト 自分の投稿編集画面のテスト 編集成功のテスト titleが正しく更新される
+  66) [STEP2] ユーザログイン後のテスト 自分の投稿編集画面のテスト 編集成功のテスト titleが正しく更新される
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x000000000958d910>[0m
+      [31m  undefined method `body=' for #<Book:0x00007f01a8664328>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1401,11 +1383,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/02_after_login_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  69) [STEP2] ユーザログイン後のテスト 自分の投稿編集画面のテスト 編集成功のテスト bodyが正しく更新される
+  67) [STEP2] ユーザログイン後のテスト 自分の投稿編集画面のテスト 編集成功のテスト bodyが正しく更新される
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x000000000979a8e8>[0m
+      [31m  undefined method `body=' for #<Book:0x0000000007bf4530>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1420,11 +1402,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/02_after_login_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  70) [STEP2] ユーザログイン後のテスト 自分の投稿編集画面のテスト 編集成功のテスト リダイレクト先が、更新した投稿の詳細画面になっている
+  68) [STEP2] ユーザログイン後のテスト 自分の投稿編集画面のテスト 編集成功のテスト リダイレクト先が、更新した投稿の詳細画面になっている
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x0000000009915e20>[0m
+      [31m  undefined method `body=' for #<Book:0x0000000007d34990>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1439,11 +1421,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/02_after_login_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  71) [STEP2] ユーザログイン後のテスト ユーザ一覧画面のテスト 表示内容の確認 URLが正しい
+  69) [STEP2] ユーザログイン後のテスト ユーザ一覧画面のテスト 表示内容の確認 URLが正しい
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x0000000009ac1828>[0m
+      [31m  undefined method `body=' for #<Book:0x0000000007f6fd90>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1458,11 +1440,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/02_after_login_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  72) [STEP2] ユーザログイン後のテスト ユーザ一覧画面のテスト 表示内容の確認 自分と他人の画像が表示される: fallbackの画像がサイドバーの1つ＋一覧(2人)の2つの計3つ存在する
+  70) [STEP2] ユーザログイン後のテスト ユーザ一覧画面のテスト 表示内容の確認 自分と他人の画像が表示される: fallbackの画像がサイドバーの1つ＋一覧(2人)の2つの計3つ存在する
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x0000000009c61ed0>[0m
+      [31m  undefined method `body=' for #<Book:0x00000000078d6858>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1477,11 +1459,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/02_after_login_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  73) [STEP2] ユーザログイン後のテスト ユーザ一覧画面のテスト 表示内容の確認 自分と他人の名前がそれぞれ表示される
+  71) [STEP2] ユーザログイン後のテスト ユーザ一覧画面のテスト 表示内容の確認 自分と他人の名前がそれぞれ表示される
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x0000000009dd4fb0>[0m
+      [31m  undefined method `body=' for #<Book:0x0000000007952d18>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1496,11 +1478,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/02_after_login_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  74) [STEP2] ユーザログイン後のテスト ユーザ一覧画面のテスト 表示内容の確認 自分と他人のshowリンクがそれぞれ表示される
+  72) [STEP2] ユーザログイン後のテスト ユーザ一覧画面のテスト 表示内容の確認 自分と他人のshowリンクがそれぞれ表示される
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x0000000009fe2050>[0m
+      [31m  undefined method `body=' for #<Book:0x00007f01ac3a04d0>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1515,11 +1497,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/02_after_login_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  75) [STEP2] ユーザログイン後のテスト ユーザ一覧画面のテスト サイドバーの確認 自分の名前と紹介文が表示される
+  73) [STEP2] ユーザログイン後のテスト ユーザ一覧画面のテスト サイドバーの確認 自分の名前と紹介文が表示される
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x000000000a15a928>[0m
+      [31m  undefined method `body=' for #<Book:0x00000000073d8770>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1534,11 +1516,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/02_after_login_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  76) [STEP2] ユーザログイン後のテスト ユーザ一覧画面のテスト サイドバーの確認 自分のユーザ編集画面へのリンクが存在する
+  74) [STEP2] ユーザログイン後のテスト ユーザ一覧画面のテスト サイドバーの確認 自分のユーザ編集画面へのリンクが存在する
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x000000000a2cdad0>[0m
+      [31m  undefined method `body=' for #<Book:0x00000000081e1a10>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1553,11 +1535,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/02_after_login_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  77) [STEP2] ユーザログイン後のテスト ユーザ一覧画面のテスト サイドバーの確認 「New book」と表示される
+  75) [STEP2] ユーザログイン後のテスト ユーザ一覧画面のテスト サイドバーの確認 「New book」と表示される
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x000000000a42bee0>[0m
+      [31m  undefined method `body=' for #<Book:0x00000000084ded30>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1572,11 +1554,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/02_after_login_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  78) [STEP2] ユーザログイン後のテスト ユーザ一覧画面のテスト サイドバーの確認 titleフォームが表示される
+  76) [STEP2] ユーザログイン後のテスト ユーザ一覧画面のテスト サイドバーの確認 titleフォームが表示される
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x000000000a5a4d58>[0m
+      [31m  undefined method `body=' for #<Book:0x00000000086c1850>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1591,11 +1573,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/02_after_login_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  79) [STEP2] ユーザログイン後のテスト ユーザ一覧画面のテスト サイドバーの確認 titleフォームに値が入っていない
+  77) [STEP2] ユーザログイン後のテスト ユーザ一覧画面のテスト サイドバーの確認 titleフォームに値が入っていない
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x00000000099ade78>[0m
+      [31m  undefined method `body=' for #<Book:0x00000000088e1d38>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1610,11 +1592,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/02_after_login_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  80) [STEP2] ユーザログイン後のテスト ユーザ一覧画面のテスト サイドバーの確認 bodyフォームが表示される
+  78) [STEP2] ユーザログイン後のテスト ユーザ一覧画面のテスト サイドバーの確認 bodyフォームが表示される
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x0000000008e04b58>[0m
+      [31m  undefined method `body=' for #<Book:0x0000000008af2118>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1629,11 +1611,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/02_after_login_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  81) [STEP2] ユーザログイン後のテスト ユーザ一覧画面のテスト サイドバーの確認 bodyフォームに値が入っていない
+  79) [STEP2] ユーザログイン後のテスト ユーザ一覧画面のテスト サイドバーの確認 bodyフォームに値が入っていない
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x0000000007c7c2f0>[0m
+      [31m  undefined method `body=' for #<Book:0x000000000902d358>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1648,11 +1630,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/02_after_login_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  82) [STEP2] ユーザログイン後のテスト ユーザ一覧画面のテスト サイドバーの確認 Create Bookボタンが表示される
+  80) [STEP2] ユーザログイン後のテスト ユーザ一覧画面のテスト サイドバーの確認 Create Bookボタンが表示される
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x000000000a71fcf0>[0m
+      [31m  undefined method `body=' for #<Book:0x00000000091d48c8>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1667,11 +1649,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/02_after_login_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  83) [STEP2] ユーザログイン後のテスト 自分のユーザ詳細画面のテスト 表示の確認 URLが正しい
+  81) [STEP2] ユーザログイン後のテスト 自分のユーザ詳細画面のテスト 表示の確認 URLが正しい
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x000000000a7bf4f8>[0m
+      [31m  undefined method `body=' for #<Book:0x000000000936cb68>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1686,11 +1668,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/02_after_login_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  84) [STEP2] ユーザログイン後のテスト 自分のユーザ詳細画面のテスト 表示の確認 投稿一覧のユーザ画像のリンク先が正しい
+  82) [STEP2] ユーザログイン後のテスト 自分のユーザ詳細画面のテスト 表示の確認 投稿一覧のユーザ画像のリンク先が正しい
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x00007f674c5889e0>[0m
+      [31m  undefined method `body=' for #<Book:0x00007f01a848c960>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1705,11 +1687,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/02_after_login_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  85) [STEP2] ユーザログイン後のテスト 自分のユーザ詳細画面のテスト 表示の確認 投稿一覧に自分の投稿のtitleが表示され、リンクが正しい
+  83) [STEP2] ユーザログイン後のテスト 自分のユーザ詳細画面のテスト 表示の確認 投稿一覧に自分の投稿のtitleが表示され、リンクが正しい
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x0000000008d1b778>[0m
+      [31m  undefined method `body=' for #<Book:0x00000000095e39f0>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1724,11 +1706,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/02_after_login_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  86) [STEP2] ユーザログイン後のテスト 自分のユーザ詳細画面のテスト 表示の確認 投稿一覧に自分の投稿のbodyが表示される
+  84) [STEP2] ユーザログイン後のテスト 自分のユーザ詳細画面のテスト 表示の確認 投稿一覧に自分の投稿のbodyが表示される
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x00000000053dbd50>[0m
+      [31m  undefined method `body=' for #<Book:0x00000000097466d0>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1743,11 +1725,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/02_after_login_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  87) [STEP2] ユーザログイン後のテスト 自分のユーザ詳細画面のテスト 表示の確認 他人の投稿は表示されない
+  85) [STEP2] ユーザログイン後のテスト 自分のユーザ詳細画面のテスト 表示の確認 他人の投稿は表示されない
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x00000000085830d8>[0m
+      [31m  undefined method `body=' for #<Book:0x0000000008223780>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1762,11 +1744,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/02_after_login_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  88) [STEP2] ユーザログイン後のテスト 自分のユーザ詳細画面のテスト サイドバーの確認 自分の名前と紹介文が表示される
+  86) [STEP2] ユーザログイン後のテスト 自分のユーザ詳細画面のテスト サイドバーの確認 自分の名前と紹介文が表示される
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x0000000008684b80>[0m
+      [31m  undefined method `body=' for #<Book:0x0000000008d78b08>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1781,11 +1763,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/02_after_login_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  89) [STEP2] ユーザログイン後のテスト 自分のユーザ詳細画面のテスト サイドバーの確認 自分のユーザ編集画面へのリンクが存在する
+  87) [STEP2] ユーザログイン後のテスト 自分のユーザ詳細画面のテスト サイドバーの確認 自分のユーザ編集画面へのリンクが存在する
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x000000000888da08>[0m
+      [31m  undefined method `body=' for #<Book:0x00007f01a84d0778>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1800,11 +1782,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/02_after_login_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  90) [STEP2] ユーザログイン後のテスト 自分のユーザ詳細画面のテスト サイドバーの確認 「New book」と表示される
+  88) [STEP2] ユーザログイン後のテスト 自分のユーザ詳細画面のテスト サイドバーの確認 「New book」と表示される
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x00000000089f8a78>[0m
+      [31m  undefined method `body=' for #<Book:0x00007f01ac46a9b0>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1819,11 +1801,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/02_after_login_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  91) [STEP2] ユーザログイン後のテスト 自分のユーザ詳細画面のテスト サイドバーの確認 titleフォームが表示される
+  89) [STEP2] ユーザログイン後のテスト 自分のユーザ詳細画面のテスト サイドバーの確認 titleフォームが表示される
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x00007f674c04a208>[0m
+      [31m  undefined method `body=' for #<Book:0x0000000008cc7290>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1838,11 +1820,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/02_after_login_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  92) [STEP2] ユーザログイン後のテスト 自分のユーザ詳細画面のテスト サイドバーの確認 titleフォームに値が入っていない
+  90) [STEP2] ユーザログイン後のテスト 自分のユーザ詳細画面のテスト サイドバーの確認 titleフォームに値が入っていない
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x00000000081e0660>[0m
+      [31m  undefined method `body=' for #<Book:0x00007f01ac4b0668>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1857,11 +1839,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/02_after_login_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  93) [STEP2] ユーザログイン後のテスト 自分のユーザ詳細画面のテスト サイドバーの確認 bodyフォームが表示される
+  91) [STEP2] ユーザログイン後のテスト 自分のユーザ詳細画面のテスト サイドバーの確認 bodyフォームが表示される
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x0000000008bc6530>[0m
+      [31m  undefined method `body=' for #<Book:0x00007f01a8568d70>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1876,11 +1858,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/02_after_login_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  94) [STEP2] ユーザログイン後のテスト 自分のユーザ詳細画面のテスト サイドバーの確認 bodyフォームに値が入っていない
+  92) [STEP2] ユーザログイン後のテスト 自分のユーザ詳細画面のテスト サイドバーの確認 bodyフォームに値が入っていない
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x0000000008de05f0>[0m
+      [31m  undefined method `body=' for #<Book:0x0000000009951268>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1895,11 +1877,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/02_after_login_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  95) [STEP2] ユーザログイン後のテスト 自分のユーザ詳細画面のテスト サイドバーの確認 Create Bookボタンが表示される
+  93) [STEP2] ユーザログイン後のテスト 自分のユーザ詳細画面のテスト サイドバーの確認 Create Bookボタンが表示される
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x00000000090c4320>[0m
+      [31m  undefined method `body=' for #<Book:0x00000000099e1ed0>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1914,11 +1896,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/02_after_login_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  96) [STEP2] ユーザログイン後のテスト 自分のユーザ情報編集画面のテスト 表示の確認 URLが正しい
+  94) [STEP2] ユーザログイン後のテスト 自分のユーザ情報編集画面のテスト 表示の確認 URLが正しい
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x000000000930cd30>[0m
+      [31m  undefined method `body=' for #<Book:0x00007f01a85dc950>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1933,11 +1915,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/02_after_login_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  97) [STEP2] ユーザログイン後のテスト 自分のユーザ情報編集画面のテスト 表示の確認 名前編集フォームに自分の名前が表示される
+  95) [STEP2] ユーザログイン後のテスト 自分のユーザ情報編集画面のテスト 表示の確認 名前編集フォームに自分の名前が表示される
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x000000000951d610>[0m
+      [31m  undefined method `body=' for #<Book:0x00007f01a8626578>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1952,11 +1934,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/02_after_login_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  98) [STEP2] ユーザログイン後のテスト 自分のユーザ情報編集画面のテスト 表示の確認 画像編集フォームが表示される
+  96) [STEP2] ユーザログイン後のテスト 自分のユーザ情報編集画面のテスト 表示の確認 画像編集フォームが表示される
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x00000000096df958>[0m
+      [31m  undefined method `body=' for #<Book:0x0000000009ba84d0>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1971,11 +1953,11 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/02_after_login_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  99) [STEP2] ユーザログイン後のテスト 自分のユーザ情報編集画面のテスト 表示の確認 自己紹介編集フォームに自分の自己紹介文が表示される
+  97) [STEP2] ユーザログイン後のテスト 自分のユーザ情報編集画面のテスト 表示の確認 自己紹介編集フォームに自分の自己紹介文が表示される
       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
       [31m[0m
       [31mNoMethodError:[0m
-      [31m  undefined method `body=' for #<Book:0x00000000098ad668>[0m
+      [31m  undefined method `body=' for #<Book:0x0000000005860830>[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -1990,11 +1972,49 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
       [36m# ./spec/system/02_after_login_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  100) [STEP2] ユーザログイン後のテスト 自分のユーザ情報編集画面のテスト 表示の確認 Update Userボタンが表示される
+  98) [STEP2] ユーザログイン後のテスト 自分のユーザ情報編集画面のテスト 表示の確認 Update Userボタンが表示される
+      [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
+      [31m[0m
+      [31mNoMethodError:[0m
+      [31m  undefined method `body=' for #<Book:0x0000000007c97168>[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `block in object'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:14:in `tap'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:14:in `object'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/evaluation.rb:13:in `object'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy/create.rb:9:in `result'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/factory.rb:43:in `run'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/factory_runner.rb:29:in `block in run'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/factory_runner.rb:28:in `run'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
+      [36m# ./spec/system/02_after_login_spec.rb:6:in `block (2 levels) in <main>'[0m
+
+  99) [STEP2] ユーザログイン後のテスト 自分のユーザ情報編集画面のテスト 更新成功のテスト nameが正しく更新される
+      [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
+      [31m[0m
+      [31mNoMethodError:[0m
+      [31m  undefined method `body=' for #<Book:0x0000000007e88300>[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `block in object'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:14:in `tap'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:14:in `object'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/evaluation.rb:13:in `object'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy/create.rb:9:in `result'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/factory.rb:43:in `run'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/factory_runner.rb:29:in `block in run'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/factory_runner.rb:28:in `run'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
+      [36m# ./spec/system/02_after_login_spec.rb:6:in `block (2 levels) in <main>'[0m
+
+  100) [STEP2] ユーザログイン後のテスト 自分のユーザ情報編集画面のテスト 更新成功のテスト introductionが正しく更新される
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x0000000009a09228>[0m
+       [31m  undefined method `body=' for #<Book:0x00007f01a803ff60>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2009,11 +2029,11 @@ Failures:
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
        [36m# ./spec/system/02_after_login_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  101) [STEP2] ユーザログイン後のテスト 自分のユーザ情報編集画面のテスト 更新成功のテスト nameが正しく更新される
+  101) [STEP2] ユーザログイン後のテスト 自分のユーザ情報編集画面のテスト 更新成功のテスト リダイレクト先が、自分のユーザ詳細画面になっている
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x0000000009ba76e8>[0m
+       [31m  undefined method `body=' for #<Book:0x0000000007ea5680>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2028,11 +2048,11 @@ Failures:
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
        [36m# ./spec/system/02_after_login_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  102) [STEP2] ユーザログイン後のテスト 自分のユーザ情報編集画面のテスト 更新成功のテスト introductionが正しく更新される
+  102) [STEP3] 仕上げのテスト サクセスメッセージのテスト ユーザ新規登録成功時
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x0000000009d5b750>[0m
+       [31m  undefined method `body=' for #<Book:0x00007f01a847c2e0>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2045,51 +2065,13 @@ Failures:
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/factory_runner.rb:29:in `block in run'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/factory_runner.rb:28:in `run'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
-       [36m# ./spec/system/02_after_login_spec.rb:6:in `block (2 levels) in <main>'[0m
-
-  103) [STEP2] ユーザログイン後のテスト 自分のユーザ情報編集画面のテスト 更新成功のテスト リダイレクト先が、自分のユーザ詳細画面になっている
-       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
-       [31m[0m
-       [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x0000000009f00218>[0m
-       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
-       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
-       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
-       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `block in object'[0m
-       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:14:in `tap'[0m
-       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:14:in `object'[0m
-       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/evaluation.rb:13:in `object'[0m
-       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy/create.rb:9:in `result'[0m
-       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/factory.rb:43:in `run'[0m
-       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/factory_runner.rb:29:in `block in run'[0m
-       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/factory_runner.rb:28:in `run'[0m
-       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
-       [36m# ./spec/system/02_after_login_spec.rb:6:in `block (2 levels) in <main>'[0m
-
-  104) [STEP3] 仕上げのテスト サクセスメッセージのテスト ユーザ新規登録成功時
-       [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
-       [31m[0m
-       [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x000000000a133c60>[0m
-       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
-       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
-       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
-       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `block in object'[0m
-       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:14:in `tap'[0m
-       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:14:in `object'[0m
-       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/evaluation.rb:13:in `object'[0m
-       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy/create.rb:9:in `result'[0m
-       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/factory.rb:43:in `run'[0m
-       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/factory_runner.rb:29:in `block in run'[0m
-       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/factory_runner.rb:28:in `run'[0m
-       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
        [36m# ./spec/system/03_finishing_touches_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  105) [STEP3] 仕上げのテスト サクセスメッセージのテスト ユーザログイン成功時
+  103) [STEP3] 仕上げのテスト サクセスメッセージのテスト ユーザログイン成功時
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x000000000a2c2ae0>[0m
+       [31m  undefined method `body=' for #<Book:0x00000000073557d0>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2104,11 +2086,11 @@ Failures:
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
        [36m# ./spec/system/03_finishing_touches_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  106) [STEP3] 仕上げのテスト サクセスメッセージのテスト ユーザログアウト成功時
+  104) [STEP3] 仕上げのテスト サクセスメッセージのテスト ユーザログアウト成功時
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x000000000a3f2370>[0m
+       [31m  undefined method `body=' for #<Book:0x0000000007420cf0>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2123,11 +2105,11 @@ Failures:
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
        [36m# ./spec/system/03_finishing_touches_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  107) [STEP3] 仕上げのテスト サクセスメッセージのテスト ユーザのプロフィール情報更新成功時
+  105) [STEP3] 仕上げのテスト サクセスメッセージのテスト ユーザのプロフィール情報更新成功時
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x000000000a587de8>[0m
+       [31m  undefined method `body=' for #<Book:0x00000000082d1290>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2142,11 +2124,11 @@ Failures:
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
        [36m# ./spec/system/03_finishing_touches_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  108) [STEP3] 仕上げのテスト サクセスメッセージのテスト 投稿データの新規投稿成功時: 投稿一覧画面から行います。
+  106) [STEP3] 仕上げのテスト サクセスメッセージのテスト 投稿データの新規投稿成功時: 投稿一覧画面から行います。
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x000000000998e438>[0m
+       [31m  undefined method `body=' for #<Book:0x0000000008590a58>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2161,11 +2143,11 @@ Failures:
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
        [36m# ./spec/system/03_finishing_touches_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  109) [STEP3] 仕上げのテスト サクセスメッセージのテスト 投稿データの更新成功時
+  107) [STEP3] 仕上げのテスト サクセスメッセージのテスト 投稿データの更新成功時
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x0000000008f947c0>[0m
+       [31m  undefined method `body=' for #<Book:0x0000000008766f30>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2180,11 +2162,11 @@ Failures:
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
        [36m# ./spec/system/03_finishing_touches_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  110) [STEP3] 仕上げのテスト 処理失敗時のテスト ユーザ新規登録失敗: nameを1文字にする 新規登録されない
+  108) [STEP3] 仕上げのテスト 処理失敗時のテスト ユーザ新規登録失敗: nameを1文字にする 新規登録されない
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x00000000095cc0c0>[0m
+       [31m  undefined method `body=' for #<Book:0x00000000089accb8>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2199,11 +2181,11 @@ Failures:
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
        [36m# ./spec/system/03_finishing_touches_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  111) [STEP3] 仕上げのテスト 処理失敗時のテスト ユーザ新規登録失敗: nameを1文字にする 新規登録画面を表示しており、フォームの内容が正しい
+  109) [STEP3] 仕上げのテスト 処理失敗時のテスト ユーザ新規登録失敗: nameを1文字にする 新規登録画面を表示しており、フォームの内容が正しい
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x000000000a71b650>[0m
+       [31m  undefined method `body=' for #<Book:0x0000000008bc3c68>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2218,11 +2200,11 @@ Failures:
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
        [36m# ./spec/system/03_finishing_touches_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  112) [STEP3] 仕上げのテスト 処理失敗時のテスト ユーザ新規登録失敗: nameを1文字にする バリデーションエラーが表示される
+  110) [STEP3] 仕上げのテスト 処理失敗時のテスト ユーザ新規登録失敗: nameを1文字にする バリデーションエラーが表示される
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x00007f67543f5530>[0m
+       [31m  undefined method `body=' for #<Book:0x00000000090f4750>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2237,11 +2219,11 @@ Failures:
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
        [36m# ./spec/system/03_finishing_touches_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  113) [STEP3] 仕上げのテスト 処理失敗時のテスト ユーザのプロフィール情報編集失敗: nameを1文字にする 更新されない
+  111) [STEP3] 仕上げのテスト 処理失敗時のテスト ユーザのプロフィール情報編集失敗: nameを1文字にする 更新されない
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x000000000a844798>[0m
+       [31m  undefined method `body=' for #<Book:0x00000000092f9578>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2256,11 +2238,11 @@ Failures:
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
        [36m# ./spec/system/03_finishing_touches_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  114) [STEP3] 仕上げのテスト 処理失敗時のテスト ユーザのプロフィール情報編集失敗: nameを1文字にする ユーザ編集画面を表示しており、フォームの内容が正しい
+  112) [STEP3] 仕上げのテスト 処理失敗時のテスト ユーザのプロフィール情報編集失敗: nameを1文字にする ユーザ編集画面を表示しており、フォームの内容が正しい
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x000000000a8bf650>[0m
+       [31m  undefined method `body=' for #<Book:0x00000000094305e0>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2275,11 +2257,11 @@ Failures:
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
        [36m# ./spec/system/03_finishing_touches_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  115) [STEP3] 仕上げのテスト 処理失敗時のテスト ユーザのプロフィール情報編集失敗: nameを1文字にする バリデーションエラーが表示される
+  113) [STEP3] 仕上げのテスト 処理失敗時のテスト ユーザのプロフィール情報編集失敗: nameを1文字にする バリデーションエラーが表示される
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x0000000009503530>[0m
+       [31m  undefined method `body=' for #<Book:0x000000000956cb48>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2294,11 +2276,11 @@ Failures:
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
        [36m# ./spec/system/03_finishing_touches_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  116) [STEP3] 仕上げのテスト 処理失敗時のテスト 投稿データの新規投稿失敗: 投稿一覧画面から行い、titleを空にする 投稿が保存されない
+  114) [STEP3] 仕上げのテスト 処理失敗時のテスト 投稿データの新規投稿失敗: 投稿一覧画面から行い、titleを空にする 投稿が保存されない
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x0000000008542308>[0m
+       [31m  undefined method `body=' for #<Book:0x00000000096f0c58>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2313,11 +2295,11 @@ Failures:
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
        [36m# ./spec/system/03_finishing_touches_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  117) [STEP3] 仕上げのテスト 処理失敗時のテスト 投稿データの新規投稿失敗: 投稿一覧画面から行い、titleを空にする 投稿一覧画面を表示している
+  115) [STEP3] 仕上げのテスト 処理失敗時のテスト 投稿データの新規投稿失敗: 投稿一覧画面から行い、titleを空にする 投稿一覧画面を表示している
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x00000000086710a8>[0m
+       [31m  undefined method `body=' for #<Book:0x0000000008e17be0>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2332,11 +2314,11 @@ Failures:
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
        [36m# ./spec/system/03_finishing_touches_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  118) [STEP3] 仕上げのテスト 処理失敗時のテスト 投稿データの新規投稿失敗: 投稿一覧画面から行い、titleを空にする 新規投稿フォームの内容が正しい
+  116) [STEP3] 仕上げのテスト 処理失敗時のテスト 投稿データの新規投稿失敗: 投稿一覧画面から行い、titleを空にする 新規投稿フォームの内容が正しい
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x00000000088398e0>[0m
+       [31m  undefined method `body=' for #<Book:0x00000000087189c0>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2351,11 +2333,11 @@ Failures:
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
        [36m# ./spec/system/03_finishing_touches_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  119) [STEP3] 仕上げのテスト 処理失敗時のテスト 投稿データの新規投稿失敗: 投稿一覧画面から行い、titleを空にする バリデーションエラーが表示される
+  117) [STEP3] 仕上げのテスト 処理失敗時のテスト 投稿データの新規投稿失敗: 投稿一覧画面から行い、titleを空にする バリデーションエラーが表示される
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x00000000089d4da8>[0m
+       [31m  undefined method `body=' for #<Book:0x0000000008dbdff0>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2370,11 +2352,11 @@ Failures:
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
        [36m# ./spec/system/03_finishing_touches_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  120) [STEP3] 仕上げのテスト 処理失敗時のテスト 投稿データの更新失敗: titleを空にする 投稿が更新されない
+  118) [STEP3] 仕上げのテスト 処理失敗時のテスト 投稿データの更新失敗: titleを空にする 投稿が更新されない
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x00007f6754174a90>[0m
+       [31m  undefined method `body=' for #<Book:0x00007f01ac45a0d8>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2389,11 +2371,11 @@ Failures:
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
        [36m# ./spec/system/03_finishing_touches_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  121) [STEP3] 仕上げのテスト 処理失敗時のテスト 投稿データの更新失敗: titleを空にする 投稿編集画面を表示しており、フォームの内容が正しい
+  119) [STEP3] 仕上げのテスト 処理失敗時のテスト 投稿データの更新失敗: titleを空にする 投稿編集画面を表示しており、フォームの内容が正しい
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x0000000007c3e540>[0m
+       [31m  undefined method `body=' for #<Book:0x00007f01a852cd20>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2408,11 +2390,11 @@ Failures:
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
        [36m# ./spec/system/03_finishing_touches_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  122) [STEP3] 仕上げのテスト 処理失敗時のテスト 投稿データの更新失敗: titleを空にする エラーメッセージが表示される
+  120) [STEP3] 仕上げのテスト 処理失敗時のテスト 投稿データの更新失敗: titleを空にする エラーメッセージが表示される
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x0000000008c29298>[0m
+       [31m  undefined method `body=' for #<Book:0x00007f01ac4a9728>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2427,11 +2409,11 @@ Failures:
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
        [36m# ./spec/system/03_finishing_touches_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  123) [STEP3] 仕上げのテスト ログインしていない場合のアクセス制限のテスト: アクセスできず、ログイン画面に遷移する ユーザ一覧画面
+  121) [STEP3] 仕上げのテスト ログインしていない場合のアクセス制限のテスト: アクセスできず、ログイン画面に遷移する ユーザ一覧画面
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x0000000008de0f28>[0m
+       [31m  undefined method `body=' for #<Book:0x00007f01ac4e2460>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2446,11 +2428,11 @@ Failures:
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
        [36m# ./spec/system/03_finishing_touches_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  124) [STEP3] 仕上げのテスト ログインしていない場合のアクセス制限のテスト: アクセスできず、ログイン画面に遷移する ユーザ詳細画面
+  122) [STEP3] 仕上げのテスト ログインしていない場合のアクセス制限のテスト: アクセスできず、ログイン画面に遷移する ユーザ詳細画面
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x00000000090c73e0>[0m
+       [31m  undefined method `body=' for #<Book:0x000000000994ff08>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2465,11 +2447,11 @@ Failures:
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
        [36m# ./spec/system/03_finishing_touches_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  125) [STEP3] 仕上げのテスト ログインしていない場合のアクセス制限のテスト: アクセスできず、ログイン画面に遷移する ユーザ情報編集画面
+  123) [STEP3] 仕上げのテスト ログインしていない場合のアクセス制限のテスト: アクセスできず、ログイン画面に遷移する ユーザ情報編集画面
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x00000000092c9e18>[0m
+       [31m  undefined method `body=' for #<Book:0x00007f01ac519398>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2484,11 +2466,11 @@ Failures:
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
        [36m# ./spec/system/03_finishing_touches_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  126) [STEP3] 仕上げのテスト ログインしていない場合のアクセス制限のテスト: アクセスできず、ログイン画面に遷移する 投稿一覧画面
+  124) [STEP3] 仕上げのテスト ログインしていない場合のアクセス制限のテスト: アクセスできず、ログイン画面に遷移する 投稿一覧画面
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x000000000951e538>[0m
+       [31m  undefined method `body=' for #<Book:0x0000000009a740a0>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2503,11 +2485,11 @@ Failures:
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
        [36m# ./spec/system/03_finishing_touches_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  127) [STEP3] 仕上げのテスト ログインしていない場合のアクセス制限のテスト: アクセスできず、ログイン画面に遷移する 投稿詳細画面
+  125) [STEP3] 仕上げのテスト ログインしていない場合のアクセス制限のテスト: アクセスできず、ログイン画面に遷移する 投稿詳細画面
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x00000000096dfc28>[0m
+       [31m  undefined method `body=' for #<Book:0x00007f01a86135b8>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2522,11 +2504,11 @@ Failures:
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
        [36m# ./spec/system/03_finishing_touches_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  128) [STEP3] 仕上げのテスト ログインしていない場合のアクセス制限のテスト: アクセスできず、ログイン画面に遷移する 投稿編集画面
+  126) [STEP3] 仕上げのテスト ログインしていない場合のアクセス制限のテスト: アクセスできず、ログイン画面に遷移する 投稿編集画面
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x00000000098bd540>[0m
+       [31m  undefined method `body=' for #<Book:0x0000000009b8eda0>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2541,11 +2523,11 @@ Failures:
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
        [36m# ./spec/system/03_finishing_touches_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  129) [STEP3] 仕上げのテスト 他人の画面のテスト 他人の投稿詳細画面のテスト 表示内容の確認 URLが正しい
+  127) [STEP3] 仕上げのテスト 他人の画面のテスト 他人の投稿詳細画面のテスト 表示内容の確認 URLが正しい
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x00000000099fff20>[0m
+       [31m  undefined method `body=' for #<Book:0x0000000005731fb8>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2560,11 +2542,11 @@ Failures:
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
        [36m# ./spec/system/03_finishing_touches_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  130) [STEP3] 仕上げのテスト 他人の画面のテスト 他人の投稿詳細画面のテスト 表示内容の確認 「Book detail」と表示される
+  128) [STEP3] 仕上げのテスト 他人の画面のテスト 他人の投稿詳細画面のテスト 表示内容の確認 「Book detail」と表示される
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x0000000009bd7ca8>[0m
+       [31m  undefined method `body=' for #<Book:0x0000000007c60a50>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2579,11 +2561,11 @@ Failures:
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
        [36m# ./spec/system/03_finishing_touches_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  131) [STEP3] 仕上げのテスト 他人の画面のテスト 他人の投稿詳細画面のテスト 表示内容の確認 ユーザ画像・名前のリンク先が正しい
+  129) [STEP3] 仕上げのテスト 他人の画面のテスト 他人の投稿詳細画面のテスト 表示内容の確認 ユーザ画像・名前のリンク先が正しい
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x0000000009d81428>[0m
+       [31m  undefined method `body=' for #<Book:0x0000000007e85038>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2598,11 +2580,11 @@ Failures:
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
        [36m# ./spec/system/03_finishing_touches_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  132) [STEP3] 仕上げのテスト 他人の画面のテスト 他人の投稿詳細画面のテスト 表示内容の確認 投稿のtitleが表示される
+  130) [STEP3] 仕上げのテスト 他人の画面のテスト 他人の投稿詳細画面のテスト 表示内容の確認 投稿のtitleが表示される
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x0000000009fe00c0>[0m
+       [31m  undefined method `body=' for #<Book:0x00007f01a8020188>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2617,11 +2599,11 @@ Failures:
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
        [36m# ./spec/system/03_finishing_touches_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  133) [STEP3] 仕上げのテスト 他人の画面のテスト 他人の投稿詳細画面のテスト 表示内容の確認 投稿のopinionが表示される
+  131) [STEP3] 仕上げのテスト 他人の画面のテスト 他人の投稿詳細画面のテスト 表示内容の確認 投稿のopinionが表示される
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x000000000a1ab9e0>[0m
+       [31m  undefined method `body=' for #<Book:0x00000000032d96e8>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2636,11 +2618,11 @@ Failures:
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
        [36m# ./spec/system/03_finishing_touches_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  134) [STEP3] 仕上げのテスト 他人の画面のテスト 他人の投稿詳細画面のテスト 表示内容の確認 投稿の編集リンクが表示されない
+  132) [STEP3] 仕上げのテスト 他人の画面のテスト 他人の投稿詳細画面のテスト 表示内容の確認 投稿の編集リンクが表示されない
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x000000000a32f3c0>[0m
+       [31m  undefined method `body=' for #<Book:0x000000000795de98>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2655,11 +2637,11 @@ Failures:
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
        [36m# ./spec/system/03_finishing_touches_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  135) [STEP3] 仕上げのテスト 他人の画面のテスト 他人の投稿詳細画面のテスト 表示内容の確認 投稿の削除リンクが表示されない
+  133) [STEP3] 仕上げのテスト 他人の画面のテスト 他人の投稿詳細画面のテスト 表示内容の確認 投稿の削除リンクが表示されない
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x000000000a4f5010>[0m
+       [31m  undefined method `body=' for #<Book:0x000000000735d840>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2674,11 +2656,11 @@ Failures:
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
        [36m# ./spec/system/03_finishing_touches_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  136) [STEP3] 仕上げのテスト 他人の画面のテスト 他人の投稿詳細画面のテスト サイドバーの確認 他人の名前と紹介文が表示される
+  134) [STEP3] 仕上げのテスト 他人の画面のテスト 他人の投稿詳細画面のテスト サイドバーの確認 他人の名前と紹介文が表示される
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x0000000008dcdea0>[0m
+       [31m  undefined method `body=' for #<Book:0x000000000745b4b8>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2693,11 +2675,11 @@ Failures:
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
        [36m# ./spec/system/03_finishing_touches_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  137) [STEP3] 仕上げのテスト 他人の画面のテスト 他人の投稿詳細画面のテスト サイドバーの確認 他人のユーザ編集画面へのリンクが存在する
+  135) [STEP3] 仕上げのテスト 他人の画面のテスト 他人の投稿詳細画面のテスト サイドバーの確認 他人のユーザ編集画面へのリンクが存在する
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x00007f6754390950>[0m
+       [31m  undefined method `body=' for #<Book:0x0000000008363910>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2712,11 +2694,11 @@ Failures:
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
        [36m# ./spec/system/03_finishing_touches_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  138) [STEP3] 仕上げのテスト 他人の画面のテスト 他人の投稿詳細画面のテスト サイドバーの確認 自分の名前と紹介文は表示されない
+  136) [STEP3] 仕上げのテスト 他人の画面のテスト 他人の投稿詳細画面のテスト サイドバーの確認 自分の名前と紹介文は表示されない
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x0000000008e1a278>[0m
+       [31m  undefined method `body=' for #<Book:0x00000000085f0228>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2731,11 +2713,11 @@ Failures:
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
        [36m# ./spec/system/03_finishing_touches_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  139) [STEP3] 仕上げのテスト 他人の画面のテスト 他人の投稿詳細画面のテスト サイドバーの確認 自分のユーザ編集画面へのリンクは存在しない
+  137) [STEP3] 仕上げのテスト 他人の画面のテスト 他人の投稿詳細画面のテスト サイドバーの確認 自分のユーザ編集画面へのリンクは存在しない
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x00007f67543bbce0>[0m
+       [31m  undefined method `body=' for #<Book:0x0000000008800248>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2750,11 +2732,11 @@ Failures:
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
        [36m# ./spec/system/03_finishing_touches_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  140) [STEP3] 仕上げのテスト 他人の画面のテスト 他人の投稿編集画面 遷移できず、投稿一覧画面にリダイレクトされる
+  138) [STEP3] 仕上げのテスト 他人の画面のテスト 他人の投稿編集画面 遷移できず、投稿一覧画面にリダイレクトされる
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x000000000a756f48>[0m
+       [31m  undefined method `body=' for #<Book:0x00000000089eec80>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2769,11 +2751,11 @@ Failures:
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
        [36m# ./spec/system/03_finishing_touches_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  141) [STEP3] 仕上げのテスト 他人の画面のテスト 他人のユーザ詳細画面のテスト 表示の確認 URLが正しい
+  139) [STEP3] 仕上げのテスト 他人の画面のテスト 他人のユーザ詳細画面のテスト 表示の確認 URLが正しい
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x000000000a7dde30>[0m
+       [31m  undefined method `body=' for #<Book:0x0000000008c244a0>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2788,11 +2770,11 @@ Failures:
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
        [36m# ./spec/system/03_finishing_touches_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  142) [STEP3] 仕上げのテスト 他人の画面のテスト 他人のユーザ詳細画面のテスト 表示の確認 投稿一覧のユーザ画像のリンク先が正しい
+  140) [STEP3] 仕上げのテスト 他人の画面のテスト 他人のユーザ詳細画面のテスト 表示の確認 投稿一覧のユーザ画像のリンク先が正しい
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x00007f674c5aac48>[0m
+       [31m  undefined method `body=' for #<Book:0x000000000910ec40>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2807,11 +2789,11 @@ Failures:
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
        [36m# ./spec/system/03_finishing_touches_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  143) [STEP3] 仕上げのテスト 他人の画面のテスト 他人のユーザ詳細画面のテスト 表示の確認 投稿一覧に他人の投稿のtitleが表示され、リンクが正しい
+  141) [STEP3] 仕上げのテスト 他人の画面のテスト 他人のユーザ詳細画面のテスト 表示の確認 投稿一覧に他人の投稿のtitleが表示され、リンクが正しい
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x0000000009375470>[0m
+       [31m  undefined method `body=' for #<Book:0x00000000092f7228>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2826,11 +2808,11 @@ Failures:
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
        [36m# ./spec/system/03_finishing_touches_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  144) [STEP3] 仕上げのテスト 他人の画面のテスト 他人のユーザ詳細画面のテスト 表示の確認 投稿一覧に他人の投稿のopinionが表示される
+  142) [STEP3] 仕上げのテスト 他人の画面のテスト 他人のユーザ詳細画面のテスト 表示の確認 投稿一覧に他人の投稿のopinionが表示される
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x000000000853cb10>[0m
+       [31m  undefined method `body=' for #<Book:0x000000000942c030>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2845,11 +2827,11 @@ Failures:
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
        [36m# ./spec/system/03_finishing_touches_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  145) [STEP3] 仕上げのテスト 他人の画面のテスト 他人のユーザ詳細画面のテスト 表示の確認 自分の投稿は表示されない
+  143) [STEP3] 仕上げのテスト 他人の画面のテスト 他人のユーザ詳細画面のテスト 表示の確認 自分の投稿は表示されない
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x000000000865eed0>[0m
+       [31m  undefined method `body=' for #<Book:0x000000000955c7e8>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2864,11 +2846,11 @@ Failures:
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
        [36m# ./spec/system/03_finishing_touches_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  146) [STEP3] 仕上げのテスト 他人の画面のテスト 他人のユーザ詳細画面のテスト サイドバーの確認 他人の名前と紹介文が表示される
+  144) [STEP3] 仕上げのテスト 他人の画面のテスト 他人のユーザ詳細画面のテスト サイドバーの確認 他人の名前と紹介文が表示される
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x000000000886a4e0>[0m
+       [31m  undefined method `body=' for #<Book:0x00000000096f1220>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2883,11 +2865,11 @@ Failures:
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
        [36m# ./spec/system/03_finishing_touches_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  147) [STEP3] 仕上げのテスト 他人の画面のテスト 他人のユーザ詳細画面のテスト サイドバーの確認 他人のユーザ編集画面へのリンクが存在する
+  145) [STEP3] 仕上げのテスト 他人の画面のテスト 他人のユーザ詳細画面のテスト サイドバーの確認 他人のユーザ編集画面へのリンクが存在する
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x00007f67540463d0>[0m
+       [31m  undefined method `body=' for #<Book:0x00000000082de210>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2902,11 +2884,11 @@ Failures:
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
        [36m# ./spec/system/03_finishing_touches_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  148) [STEP3] 仕上げのテスト 他人の画面のテスト 他人のユーザ詳細画面のテスト サイドバーの確認 自分の名前と紹介文は表示されない
+  146) [STEP3] 仕上げのテスト 他人の画面のテスト 他人のユーザ詳細画面のテスト サイドバーの確認 自分の名前と紹介文は表示されない
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x00007f6754088e60>[0m
+       [31m  undefined method `body=' for #<Book:0x000000000978f4c0>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2921,11 +2903,11 @@ Failures:
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
        [36m# ./spec/system/03_finishing_touches_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  149) [STEP3] 仕上げのテスト 他人の画面のテスト 他人のユーザ詳細画面のテスト サイドバーの確認 自分のユーザ編集画面へのリンクは存在しない
+  147) [STEP3] 仕上げのテスト 他人の画面のテスト 他人のユーザ詳細画面のテスト サイドバーの確認 自分のユーザ編集画面へのリンクは存在しない
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x00000000085e9ba8>[0m
+       [31m  undefined method `body=' for #<Book:0x0000000008db5f80>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2940,11 +2922,11 @@ Failures:
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
        [36m# ./spec/system/03_finishing_touches_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  150) [STEP3] 仕上げのテスト 他人の画面のテスト 他人のユーザ情報編集画面 遷移できず、自分のユーザ詳細画面にリダイレクトされる
+  148) [STEP3] 仕上げのテスト 他人の画面のテスト 他人のユーザ情報編集画面 遷移できず、自分のユーザ詳細画面にリダイレクトされる
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x0000000008bcbbc0>[0m
+       [31m  undefined method `body=' for #<Book:0x00000000094127e8>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2959,11 +2941,11 @@ Failures:
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
        [36m# ./spec/system/03_finishing_touches_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  151) [STEP3] 仕上げのテスト グリッドシステムのテスト: container, row, col-md-〇を正しく使えている ユーザ一覧画面
+  149) [STEP3] 仕上げのテスト グリッドシステムのテスト: container, row, col-md-〇を正しく使えている ユーザ一覧画面
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x0000000008de1c98>[0m
+       [31m  undefined method `body=' for #<Book:0x0000000008fa9580>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2978,11 +2960,11 @@ Failures:
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
        [36m# ./spec/system/03_finishing_touches_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  152) [STEP3] 仕上げのテスト グリッドシステムのテスト: container, row, col-md-〇を正しく使えている ユーザ詳細画面
+  150) [STEP3] 仕上げのテスト グリッドシステムのテスト: container, row, col-md-〇を正しく使えている ユーザ詳細画面
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x0000000008fbd620>[0m
+       [31m  undefined method `body=' for #<Book:0x00007f01a85595a0>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -2997,11 +2979,11 @@ Failures:
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
        [36m# ./spec/system/03_finishing_touches_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  153) [STEP3] 仕上げのテスト グリッドシステムのテスト: container, row, col-md-〇を正しく使えている 投稿一覧画面
+  151) [STEP3] 仕上げのテスト グリッドシステムのテスト: container, row, col-md-〇を正しく使えている 投稿一覧画面
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x00000000092a84c0>[0m
+       [31m  undefined method `body=' for #<Book:0x00000000098ab6d8>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -3016,11 +2998,11 @@ Failures:
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
        [36m# ./spec/system/03_finishing_touches_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  154) [STEP3] 仕上げのテスト グリッドシステムのテスト: container, row, col-md-〇を正しく使えている 投稿詳細画面
+  152) [STEP3] 仕上げのテスト グリッドシステムのテスト: container, row, col-md-〇を正しく使えている 投稿詳細画面
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x00000000094cd8b8>[0m
+       [31m  undefined method `body=' for #<Book:0x0000000009950e08>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -3035,11 +3017,11 @@ Failures:
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
        [36m# ./spec/system/03_finishing_touches_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  155) [STEP3] 仕上げのテスト アイコンのテスト トップ画面 本のアイコンが表示される
+  153) [STEP3] 仕上げのテスト アイコンのテスト トップ画面 本のアイコンが表示される
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x0000000009688a18>[0m
+       [31m  undefined method `body=' for #<Book:0x00000000099e8ff0>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -3054,11 +3036,11 @@ Failures:
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
        [36m# ./spec/system/03_finishing_touches_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  156) [STEP3] 仕上げのテスト アイコンのテスト アバウト画面 本のアイコンが表示される
+  154) [STEP3] 仕上げのテスト アイコンのテスト アバウト画面 本のアイコンが表示される
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x00000000098963c8>[0m
+       [31m  undefined method `body=' for #<Book:0x0000000009a70068>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -3073,11 +3055,11 @@ Failures:
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
        [36m# ./spec/system/03_finishing_touches_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  157) [STEP3] 仕上げのテスト アイコンのテスト ヘッダー: ログインしていない場合 Homeリンクのアイコンが表示される
+  155) [STEP3] 仕上げのテスト アイコンのテスト ヘッダー: ログインしていない場合 Homeリンクのアイコンが表示される
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x0000000009a166f8>[0m
+       [31m  undefined method `body=' for #<Book:0x00007f01a86240c0>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -3092,11 +3074,11 @@ Failures:
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
        [36m# ./spec/system/03_finishing_touches_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  158) [STEP3] 仕上げのテスト アイコンのテスト ヘッダー: ログインしていない場合 Aboutリンクのアイコンが表示される
+  156) [STEP3] 仕上げのテスト アイコンのテスト ヘッダー: ログインしていない場合 Aboutリンクのアイコンが表示される
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x0000000009bac198>[0m
+       [31m  undefined method `body=' for #<Book:0x0000000009baac08>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -3111,11 +3093,11 @@ Failures:
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
        [36m# ./spec/system/03_finishing_touches_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  159) [STEP3] 仕上げのテスト アイコンのテスト ヘッダー: ログインしていない場合 Sign upリンクのアイコンが表示される
+  157) [STEP3] 仕上げのテスト アイコンのテスト ヘッダー: ログインしていない場合 Sign upリンクのアイコンが表示される
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x0000000009d70970>[0m
+       [31m  undefined method `body=' for #<Book:0x00000000077d0990>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -3130,11 +3112,11 @@ Failures:
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
        [36m# ./spec/system/03_finishing_touches_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  160) [STEP3] 仕上げのテスト アイコンのテスト ヘッダー: ログインしていない場合 Log inリンクのアイコンが表示される
+  158) [STEP3] 仕上げのテスト アイコンのテスト ヘッダー: ログインしていない場合 Log inリンクのアイコンが表示される
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x0000000009f72958>[0m
+       [31m  undefined method `body=' for #<Book:0x0000000007c787e0>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -3149,11 +3131,11 @@ Failures:
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
        [36m# ./spec/system/03_finishing_touches_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  161) [STEP3] 仕上げのテスト アイコンのテスト ヘッダー: ログインしている場合 Homeリンクのアイコンが表示される
+  159) [STEP3] 仕上げのテスト アイコンのテスト ヘッダー: ログインしている場合 Homeリンクのアイコンが表示される
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x000000000a124940>[0m
+       [31m  undefined method `body=' for #<Book:0x0000000007ee7030>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -3168,11 +3150,11 @@ Failures:
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
        [36m# ./spec/system/03_finishing_touches_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  162) [STEP3] 仕上げのテスト アイコンのテスト ヘッダー: ログインしている場合 Usersリンクのアイコンが表示される
+  160) [STEP3] 仕上げのテスト アイコンのテスト ヘッダー: ログインしている場合 Usersリンクのアイコンが表示される
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x00007f674c48eb98>[0m
+       [31m  undefined method `body=' for #<Book:0x00000000078996b0>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -3187,11 +3169,11 @@ Failures:
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
        [36m# ./spec/system/03_finishing_touches_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  163) [STEP3] 仕上げのテスト アイコンのテスト ヘッダー: ログインしている場合 Booksリンクのアイコンが表示される
+  161) [STEP3] 仕上げのテスト アイコンのテスト ヘッダー: ログインしている場合 Booksリンクのアイコンが表示される
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x000000000a4a3468>[0m
+       [31m  undefined method `body=' for #<Book:0x00007f01ac390c88>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -3206,11 +3188,11 @@ Failures:
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
        [36m# ./spec/system/03_finishing_touches_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  164) [STEP3] 仕上げのテスト アイコンのテスト ヘッダー: ログインしている場合 Log outリンクのアイコンが表示される
+  162) [STEP3] 仕上げのテスト アイコンのテスト ヘッダー: ログインしている場合 Log outリンクのアイコンが表示される
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x00007f674c4da250>[0m
+       [31m  undefined method `body=' for #<Book:0x0000000007865270>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -3225,11 +3207,11 @@ Failures:
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
        [36m# ./spec/system/03_finishing_touches_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  165) [STEP3] 仕上げのテスト アイコンのテスト サイドバー ユーザ一覧画面でレンチアイコンが表示される
+  163) [STEP3] 仕上げのテスト アイコンのテスト サイドバー ユーザ一覧画面でレンチアイコンが表示される
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x0000000009d8a9b0>[0m
+       [31m  undefined method `body=' for #<Book:0x00000000073bd8d0>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -3244,11 +3226,11 @@ Failures:
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
        [36m# ./spec/system/03_finishing_touches_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  166) [STEP3] 仕上げのテスト アイコンのテスト サイドバー ユーザ詳細画面でレンチアイコンが表示される
+  164) [STEP3] 仕上げのテスト アイコンのテスト サイドバー ユーザ詳細画面でレンチアイコンが表示される
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x0000000008e15c28>[0m
+       [31m  undefined method `body=' for #<Book:0x00000000081c5c70>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -3263,11 +3245,11 @@ Failures:
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
        [36m# ./spec/system/03_finishing_touches_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  167) [STEP3] 仕上げのテスト アイコンのテスト サイドバー 投稿一覧画面でレンチアイコンが表示される
+  165) [STEP3] 仕上げのテスト アイコンのテスト サイドバー 投稿一覧画面でレンチアイコンが表示される
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x000000000a67b510>[0m
+       [31m  undefined method `body=' for #<Book:0x00000000084e7ca0>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -3282,11 +3264,11 @@ Failures:
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
        [36m# ./spec/system/03_finishing_touches_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-  168) [STEP3] 仕上げのテスト アイコンのテスト サイドバー 投稿詳細画面でレンチアイコンが表示される
+  166) [STEP3] 仕上げのテスト アイコンのテスト サイドバー 投稿詳細画面でレンチアイコンが表示される
        [31mFailure/Error: let!(:book) { create(:book, user: user) }[0m
        [31m[0m
        [31mNoMethodError:[0m
-       [31m  undefined method `body=' for #<Book:0x000000000a73f488>[0m
+       [31m  undefined method `body=' for #<Book:0x00000000087031d8>[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `public_send'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:16:in `block (2 levels) in object'[0m
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/attribute_assigner.rb:15:in `each'[0m
@@ -3301,8 +3283,8 @@ Failures:
        [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/factory_bot-6.2.1/lib/factory_bot/strategy_syntax_method_registrar.rb:28:in `block in define_singular_strategy_method'[0m
        [36m# ./spec/system/03_finishing_touches_spec.rb:6:in `block (2 levels) in <main>'[0m
 
-Finished in 6.36 seconds (files took 1.09 seconds to load)
-[31m199 examples, 168 failures[0m
+Finished in 10.12 seconds (files took 1.15 seconds to load)
+[31m199 examples, 166 failures[0m
 
 Failed examples:
 
@@ -3320,8 +3302,6 @@ Failed examples:
 [31mrspec ./spec/system/01_before_login_spec.rb:89[0m [36m# [STEP1] ユーザログイン前のテスト ヘッダーのテスト: ログインしていない場合 リンクの内容を確認 Aboutを押すと、アバウト画面に遷移する[0m
 [31mrspec ./spec/system/01_before_login_spec.rb:95[0m [36m# [STEP1] ユーザログイン前のテスト ヘッダーのテスト: ログインしていない場合 リンクの内容を確認 Sign upを押すと、新規登録画面に遷移する[0m
 [31mrspec ./spec/system/01_before_login_spec.rb:101[0m [36m# [STEP1] ユーザログイン前のテスト ヘッダーのテスト: ログインしていない場合 リンクの内容を確認 Log inを押すと、ログイン画面に遷移する[0m
-[31mrspec ./spec/system/01_before_login_spec.rb:150[0m [36m# [STEP1] ユーザログイン前のテスト ユーザ新規登録のテスト 新規登録成功のテスト 新規登録後のリダイレクト先が、新規登録できたユーザの詳細画面になっている[0m
-[31mrspec ./spec/system/01_before_login_spec.rb:192[0m [36m# [STEP1] ユーザログイン前のテスト ユーザログイン ログイン成功のテスト ログイン後のリダイレクト先が、ログインしたユーザの詳細画面になっている[0m
 [31mrspec ./spec/system/01_before_login_spec.rb:221[0m [36m# [STEP1] ユーザログイン前のテスト ヘッダーのテスト: ログインしている場合 ヘッダーの表示を確認 Bookersリンクが表示される: 左上から1番目のリンクが「Bookers」である[0m
 [31mrspec ./spec/system/01_before_login_spec.rb:225[0m [36m# [STEP1] ユーザログイン前のテスト ヘッダーのテスト: ログインしている場合 ヘッダーの表示を確認 Homeリンクが表示される: 左上から2番目のリンクが「Home」である[0m
 [31mrspec ./spec/system/01_before_login_spec.rb:229[0m [36m# [STEP1] ユーザログイン前のテスト ヘッダーのテスト: ログインしている場合 ヘッダーの表示を確認 Usersリンクが表示される: 左上から3番目のリンクが「Users」である[0m
