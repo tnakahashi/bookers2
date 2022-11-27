@@ -1,11 +1,12 @@
 <main>
+  <%= flash[:notice] %>
   <div class="container">
     <div class="row">  
       <div class="col-lg-4" style="background-color: orange;">
         <h1>User info</h1>
-          <p><%= image_tag current_user.get_profile_image %></p>
-          <p>name <%= current_user.name %></p>
-          <p>introduction <%= current_user.introduction %></p>
+          <p><%= image_tag @book.user.get_profile_image %></p>
+          <p>name <%= @book.user.name %></p>
+          <p>introduction <%= @book.user.introduction %></p>
           <p><%= link_to "プロフィール編集", edit_user_path(current_user) %></p>
         
         <h1>New book</h1>
